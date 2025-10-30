@@ -10,9 +10,9 @@ const texts = {
     od: "小さな善意、<br>   大きな変化。<br>   人と地域と未来をつなげる。",
     //about us
     au1: "【私たちについて】",
-    au11: "",
+    au11: "2024年(令和6年)より、高校生が運営の中心となり活動しているNPO団体です。LSSでは、<span class=”highlight”>「BEYOND EXPECTATIONS」</span>をグループの最重要事項と位置付け活動をしています。<br>また、当団体は<span class=”highlight”>「小さな善意、大きな変化」</span>を掲げています。大きなことを背伸びしてするのではなく、自分ができることをたとえ小さなことであっても丁寧に確実にやっていく。<br>当団体は、「皆んながそれぞれに出来る小さなことをやっていくとそれがいずれ大きな変化をもたらす」そう信じています。活動は多岐に渡り、2025年度からは、海外支部も発足し、国内外問わず活躍しております。",
     au2: "【名称について】",
-    au22: "当NPO団体の『Little SeedS』という名称は、皆んなが小さな種(Little Seeds)であり、種というのは、水をやり、肥料を与えなければすぐに枯れてしまう。水と肥料を与えて、皆んなで協力すれば綺麗な花が咲き誇る。当団体はその水と肥料になり、綺麗な花をさかせてあげたい。という意味を込めて名付けました。当NPO団体は「小さな善意大きな変化」を掲げています。大きなことを背伸びしてするのではなく、自分ができることをたとえ小さなことであってもやって欲しい。<br>当団体は、「皆んながそれぞれに出来る小さなことをやっていくとそれが大きな変化をもたらす」そう信じています。",
+    au22: "当団体の『Little SeedS』という名称は、私達が小さな種(Little Seeds)であり、私達が色んな所に広がり、綺麗な花を咲かせる。その種を皆んなに分け与え、皆んなで綺麗な花をさかせたい。という意味を込めて名付けました。",
     au3: "【ロゴについて】",
     au31: "当NPO団体のロゴの上の方にはダイヤモンドの岩石が5つあります。<br>ダイヤモンドは研がれなければ輝かない。この地球上のすべての人間はダイヤモンドの岩石であり、自分自身を研いて光り輝く人間になっていって欲しいという意味を込めてダイヤモンドの岩石をあしらっています。<br>ダイヤモンドの岩石が5つあしらわれている理由は、5という数字には「人との繋がり自己の自立」という意味が込められているからです。人生のあらゆる可能性を模索し、人生がより豊かになっていって欲しいという意味を込めて、ダイヤモンドの岩石を5つあしらいました。<br>そのダイヤモンドの岩石が水色な理由は、水色という色には、「変化」という意味が込められているからです。<br>今の自分に納得せず、より良い自分を目指して変化していって欲しいという意味を込めて水色にしました。",
     f1: "社会部",
@@ -23,6 +23,7 @@ const texts = {
     f31: "",
     f4: "知育部",
     f41:"",
+    rg1:"私達NPO団体 Little SeedS Group は高校生が運営の主となり、活動しております。高校生主体での運営という過去に事例の少ないことに挑戦することはやりがいがあると共に不安も沢山あります。<br>しかし、心強い仲間と共に、<span class=”highlight”>「BEYOND EXPECTATIONS」</span>を理念に掲げ、仲間と御支援者の皆様のお力をお借りして全身全霊で挑戦し続けて参ります。<br>明日を明るい未来にする為に団体一丸となり尽力して参ります。",
   },
   en: {
     n1: "About Us",
@@ -34,9 +35,9 @@ const texts = {
     od: "",
     //about us
     au1: "【About Us】",
-    au11: "",
+    au11: "We are a NPO organization primarily run by high school students since 2024. At LSS, we position <span class=”highlight”>“BEYOND EXPECTATIONS”</span> as our group's top priority and conduct our activities accordingly.<br> Furthermore, our organization champions the motto <span class=”highlight”>“Small Acts of Kindness, Brings Big Changes”</span>. Instead of doing big things beyond our means, we focus on doing what we can—no matter how small—with care and consistency. <br>We believe that when everyone does their part, even in small ways, it will eventually bring about significant change. Our activities are diverse, and starting in fiscal year 2025, we will launch overseas branches, actively contributing both domestically and internationally.",
     au2: "【Our Name】",
-    au21: "The name of our NPO, Little SeedS, embodies the idea that everyone is a little seed. Seeds without water and fertilizer will wither and die quickly. But with working together, and with water and fertilizer, beautiful flowers will bloom. We chose this name because we want to be that water and fertiliser, helping those beautiful flowers to bloom. <br> Our NPO’s motto is “Small Acts of Kindness, Makes Big Changes.” Instead of doing big things beyond our means, we encourage everyone to do what they can, no matter how small. We firmly believe that when everyone does their own small part, it brings about significant change.",
+    au21: "The name of our organization, ‘Little SeedS’, was chosen to convey that we are small seeds (Little Seeds) that spread to various places and bloom into beautiful flowers. We wish to share these seeds with everyone and together make beautiful flowers bloom.",
     au3: "【Our Logo】",
     au31: "At the top of our NPO's logo are five diamond-shaped stones. <br>Diamonds won't shine unless they are polished. Every person on this earth is like a diamond stone, and we have incorporated these stones to convey our wish that everyone polishes themselves to become shining individuals.<br> The reason five diamond stones are featured is because the number five embodies the meaning of “connections with others and self-reliance.” We incorporated five diamond stones to express our wish for people to explore all possibilities in life and for their lives to become richer. <br>The reason these diamond stones are light blue is because the color light blue carries the meaning of “change.”<br> We chose light blue to convey our hope that people will not settle for their current selves but strive to change and become better versions of themselves.",
     f1: "Social Department",
@@ -47,6 +48,7 @@ const texts = {
     f31: "",
     f4: "Educational Department",
     f41:"",
+    rg1:"We, the NPO Little SeedS Group, are primarily run by high school students. Taking on the challenge of student-led operations—a rare endeavor—is both rewarding and filled with uncertainty. However, with our reassuring comrades and guided by our philosophy of <span class=”highlight”>“BEYOND EXPECTATIONS”</span>, we will continue to challenge ourselves wholeheartedly, borrowing the support of our peers and supporters. <br>We will strive as one organization to make tomorrow a brighter future.",
   }
 };
 
@@ -70,7 +72,8 @@ function setLanguage(lang) {
   document.getElementById('f3').innerHTML = texts[lang].f3;
   document.getElementById('f31').innerHTML = texts[lang].f31;
   document.getElementById('f4').innerHTML = texts[lang].f4;
-  document.getElementById('f41').innerHTML = texts[lang].f41;
+  document.getElementById('rg1').innerHTML = texts[lang].rg1;
+  document.getElementById('rg1').innerHTML = texts[lang].rg1;
 
 };
 
