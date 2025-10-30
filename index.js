@@ -2,19 +2,19 @@
 const texts = {
   ja: {
     n1: "私たちについて",
-    n2: "",
+    n2: "４つの柱",
     n3: "代表挨拶",
     n4: "公式SNS",
     //opening
     ot: "BEYOND EXPECTATIONS",
-    od: "小さな善意、\\r\\n   大きな変化。\\r\\n   人と地域と未来をつなげる。",
+    od: "小さな善意、<br>   大きな変化。<br>   人と地域と未来をつなげる。",
     //about us
     au1: "【私たちについて】",
     au11: "",
     au2: "【名称について】",
     au22: "当NPO団体の『Little SeedS』という名称は、皆んなが小さな種(Little Seeds)であり、種というのは、水をやり、肥料を与えなければすぐに枯れてしまう。水と肥料を与えて、皆んなで協力すれば綺麗な花が咲き誇る。当団体はその水と肥料になり、綺麗な花をさかせてあげたい。という意味を込めて名付けました。当NPO団体は「小さな善意大きな変化」を掲げています。大きなことを背伸びしてするのではなく、自分ができることをたとえ小さなことであってもやって欲しい。<br>当団体は、「皆んながそれぞれに出来る小さなことをやっていくとそれが大きな変化をもたらす」そう信じています。",
     au3: "【ロゴについて】",
-    au31: "当NPO団体のロゴの上の方にはダイヤモンドの岩石が5つあります。<br>ダイヤモンドは研がれなければ輝かない。この地球上のすべての人間はダイヤモンドの岩石であり、自分自身を研いて光り輝く人間になっていって欲しいという意味を込めてダイヤモンドの岩石をあしらっています。<br>ダイヤモンドの岩石が5つあしらわれている理由は、5という数字には「人との繋がり自己の自立」という意味が込められているからです。人生のあらゆる可能性を模索し、人生がより豊かになっていって欲しいという意味を込めて、ダイヤモンドの岩石を5つあしらいました。\\r\\nそのダイヤモンドの岩石が水色な理由は、水色という色には、「変化」という意味が込められているからです。<br>今の自分に納得せず、より良い自分を目指して変化していって欲しいという意味を込めて水色にしました。",
+    au31: "当NPO団体のロゴの上の方にはダイヤモンドの岩石が5つあります。<br>ダイヤモンドは研がれなければ輝かない。この地球上のすべての人間はダイヤモンドの岩石であり、自分自身を研いて光り輝く人間になっていって欲しいという意味を込めてダイヤモンドの岩石をあしらっています。<br>ダイヤモンドの岩石が5つあしらわれている理由は、5という数字には「人との繋がり自己の自立」という意味が込められているからです。人生のあらゆる可能性を模索し、人生がより豊かになっていって欲しいという意味を込めて、ダイヤモンドの岩石を5つあしらいました。<br>そのダイヤモンドの岩石が水色な理由は、水色という色には、「変化」という意味が込められているからです。<br>今の自分に納得せず、より良い自分を目指して変化していって欲しいという意味を込めて水色にしました。",
     f1: "社会部",
     f11:"",
     f2:"文化部",
@@ -51,26 +51,26 @@ const texts = {
 };
 
 function setLanguage(lang) {
-  document.getElementById('n1').textContent = texts[lang].n1;
-  document.getElementById('n2').textContent = texts[lang].n2;
-  document.getElementById('n3').textContent = texts[lang].n3;
-  document.getElementById('n4').textContent = texts[lang].n4;
-  document.getElementById('ot').textContent = texts[lang].ot;
-  document.getElementById('od').textContent = texts[lang].od;
-  document.getElementById('au1').textContent = texts[lang].au1;
-  document.getElementById('au11').textContent = texts[lang].au11;
-  document.getElementById('au2').textContent = texts[lang].au2;
-  document.getElementById('au21').textContent = texts[lang].au21;
-  document.getElementById('au3').textContent = texts[lang].au3;
-  document.getElementById('au31').textContent = texts[lang].au31; 
-  document.getElementById('f1').textContent = texts[lang].f1;
-  document.getElementById('f11').textContent = texts[lang].f11;
-  document.getElementById('f2').textContent = texts[lang].f2;
-  document.getElementById('f21').textContent = texts[lang].f21;
-  document.getElementById('f3').textContent = texts[lang].f3;
-  document.getElementById('f31').textContent = texts[lang].f31;
-  document.getElementById('f4').textContent = texts[lang].f4;
-  document.getElementById('f41').textContent = texts[lang].f41;
+  document.getElementById('n1').innerHTML = texts[lang].n1;
+  document.getElementById('n2').innerHTML = texts[lang].n2;
+  document.getElementById('n3').innerHTML = texts[lang].n3;
+  document.getElementById('n4').innerHTML = texts[lang].n4;
+  document.getElementById('ot').innerHTML = texts[lang].ot;
+  document.getElementById('od').innerHTML = texts[lang].od;
+  document.getElementById('au1').innerHTML = texts[lang].au1;
+  document.getElementById('au11').innerHTML = texts[lang].au11;
+  document.getElementById('au2').innerHTML = texts[lang].au2;
+  document.getElementById('au21').innerHTML = texts[lang].au21;
+  document.getElementById('au3').innerHTML = texts[lang].au3;
+  document.getElementById('au31').innerHTML = texts[lang].au31; 
+  document.getElementById('f1').innerHTML = texts[lang].f1;
+  document.getElementById('f11').innerHTML = texts[lang].f11;
+  document.getElementById('f2').innerHTML = texts[lang].f2;
+  document.getElementById('f21').innerHTML = texts[lang].f21;
+  document.getElementById('f3').innerHTML = texts[lang].f3;
+  document.getElementById('f31').innerHTML = texts[lang].f31;
+  document.getElementById('f4').innerHTML = texts[lang].f4;
+  document.getElementById('f41').innerHTML = texts[lang].f41;
 
 };
 
