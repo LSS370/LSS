@@ -93,6 +93,7 @@ margin-left: auto;
 .card{
     margin: 20px;
     width: auto;
+    height: 250px;
     border-radius: 10px;
     box-shadow: 10px 10px 5px #808080;
     background-color: white;
@@ -142,6 +143,7 @@ nav{align-content: center;
     margin: 20px;
     align-content: center;
     width: auto;
+    height: 300px;
     background-color: rgb(8, 139, 2);
     overflow: hidden;
 }
