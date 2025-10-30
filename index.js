@@ -7,7 +7,7 @@ const texts = {
     n4: "公式SNS",
     //opening
     ot: "BEYOND EXPECTATIONS",
-    od: "小さな善意、<br>   大きな変化。<br>    人と地域と未来をつなげる。",
+    od: "小さな善意、\\r\\n   大きな変化。\\r\\n   人と地域と未来をつなげる。",
     //about us
     au1: "【私たちについて】",
     au11: "",
