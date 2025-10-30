@@ -8,8 +8,7 @@ body{color:black;
 }
 
 
-h1{font-family: "Oswald";
-    font-size:36px;
+h1{ font-size:36px;
     text-align: left;
     font-weight: bold 700;
     padding-top: 10px;
@@ -33,27 +32,7 @@ h2{font-family: sans-serif;
     margin-left: 0px;
     margin-right: 0px;
 }
-table{ border: solid 1px black;
-    border-collapse: collapse;
-    align-content: center;
-    }
 
-th{background-color: lightblue;
-text-align: center;
-border: solid 1px black;
-    border-collapse: collapse;
- }
-
-td{background-color: white;
-    text-align: left;
-    border: solid 1px black;
-    border-collapse: collapse;
-}
-
-td > a:link{color:blue
-}
-td > a:visited{color:purple;
-}
 
 figure{
     float: right;
@@ -61,11 +40,7 @@ figure{
     margin-bottom: 10px;
     margin-right: 20px;
     margin-left: 10px;
-
 }
-
-
-
 
 p{font-family: serif;
     text-align: left;
@@ -93,7 +68,7 @@ margin-left: auto;
 .card{
     margin: 20px;
     width: auto;
-    height: 250px;
+    height: 400px;
     border-radius: 10px;
     box-shadow: 10px 10px 5px #808080;
     background-color: white;
@@ -143,7 +118,7 @@ nav{align-content: center;
     margin: 20px;
     align-content: center;
     width: auto;
-    height: 300px;
+    height: 500px;
     background-color: rgb(8, 139, 2);
     overflow: hidden;
 }
@@ -171,4 +146,8 @@ nav{align-content: center;
     float: right;
     padding: 10px;
     background-color: rgb(252, 255, 52);
+}
+
+.highlight{
+    color: rgb(8, 139, 2);
 }
