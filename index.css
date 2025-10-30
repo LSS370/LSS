@@ -74,6 +74,8 @@ margin-left: auto;
     background-color: white;
     overflow: hidden;
     margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 ul{ text-align: left;
@@ -84,7 +86,7 @@ ul{ text-align: left;
     font-size: 0px;
 
 }
-li:first-child {border-left: solid 2px black;}
+
 li{ display: inline;
     font-size: 16px;
     padding-left: 5px;
@@ -128,24 +130,28 @@ nav{align-content: center;
     float: right;
     padding: 10px;
     background-color: rgb(255, 145, 0);
+    display: inline-block;
 }
 .cpic2{
     width: 300px;
     float: right;
     padding: 10px;
     background-color: rgb(255, 3, 3);
+    display: inline-block;
 }
 .cpic3{
     width: 300px;
     float: right;
     padding: 10px;
     background-color: rgb(0, 191, 255);
+    display: inline-block;
 }
 .cpic4{
     width: 300px;
     float: right;
     padding: 10px;
     background-color: rgb(252, 255, 52);
+    display: inline-block;
 }
 
 .highlight{
