@@ -58,18 +58,11 @@ margin-left: auto;
     align-content: center;
     width: 500px;}
 
-.table{background-color:white;
-    padding: 20px;
-    margin: auto;
-    align-content: center;
-
-}
 
 ul{ text-align: left;
     list-style-type: none;
     margin: 0px;
     margin-bottom: 20px;
-    padding-right: 10px;
     font-size: 0px;
 
 }
@@ -113,16 +106,14 @@ nav{align-content: center;
 }
 
 .card{
-    margin: 20px;
-    width: auto;
+    width: 80%;
     height: 300px;
     border-radius: 10px;
     box-shadow: 10px 10px 5px #808080;
     background-color: white;
-    overflow: hidden;
-    margin-top: 20px;
     display: inline-block;
     vertical-align: top;
+    horizontal-align: center;
 }
 
 .cpic1{
