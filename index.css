@@ -155,3 +155,9 @@ nav{align-content: center;
 .highlight{
     color: rgb(8, 139, 2);
 }
+
+.representative{
+    float: right;
+    height: 300px;
+    width: 200px;
+}
