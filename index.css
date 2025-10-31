@@ -110,48 +110,51 @@ nav{align-content: center;
     overflow: hidden;
 }
 
-.card{
-    width: 80%;
-    height: 250px;
-    border-radius: 10px;
-    box-shadow: 10px 10px 5px #808080;
-    background-color: white;
-    display: inline-block;
-    vertical-align: top;
-    overflow: hidden;
+.card {
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 10px 10px 5px #808080;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
 }
 
-.cpic1{
-    width: 300px;
-    height: 230px;
-    float: right;
-    padding: 10px;
-    background-color: rgb(255, 145, 0);
-    display: inline-block;
+.cpic1 {
+  width: 300px;
+  height: 230px;
+  margin: 10px;
+  background-color: rgb(255, 145, 0);
+  flex-shrink: 0;
 }
+
+.card-content {
+  padding: 20px;
+  flex: 1;
+}
+
 .cpic2{
     width: 300px;
     height: 230px;
-    float: right;
-    padding: 10px;
+    margin: 10px;
+    flex-shrink: 0;
     background-color: rgb(255, 3, 3);
-    display: inline-block;
 }
 .cpic3{
     width: 300px;
     height: 230px;
-    float: right;
-    padding: 10px;
+    margin: 10px;
+    flex-shrink: 0;
     background-color: rgb(0, 191, 255);
-    display: inline-block;
 }
 .cpic4{
     width: 300px;
     height: 230px;
-    float: right;
-    padding: 10px;
+    margin: 10px;
+    flex-shrink: 0;
     background-color: rgb(252, 255, 52);
-    display: inline-block;
 }
 
 .highlight{
