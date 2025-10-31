@@ -158,6 +158,6 @@ nav{align-content: center;
 
 .representative{
     float: right;
-    height: 300px;
-    width: 200px;
 }
+.rg{display: block;}
+.cu{display: block; }
