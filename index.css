@@ -112,48 +112,43 @@ nav{align-content: center;
 
 .card {
   width: 80%;
-  margin: 20px auto;
+  min-height: 250px;          /* use min-height so it can expand if needed */
   border-radius: 10px;
   box-shadow: 10px 10px 5px #808080;
   background-color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  overflow: hidden;
+  display: block;              /* inline-block causes side-by-side squeezing */
+  margin: 20px auto;           /* centers and spaces between cards */
+  overflow: hidden;            /* keeps floated items inside */
+  position: relative;          /* helps control child layout */
 }
 
+/* one example — you can keep cpic1~4 with color differences */
 .cpic1 {
   width: 300px;
   height: 230px;
-  margin: 10px;
+  float: right;
   background-color: rgb(255, 145, 0);
-  flex-shrink: 0;
+  border-radius: 5px;
 }
 
-.card-content {
-  padding: 20px;
-  flex: 1;
-}
+
 
 .cpic2{
     width: 300px;
     height: 230px;
-    margin: 10px;
-    flex-shrink: 0;
+    float: right;
     background-color: rgb(255, 3, 3);
 }
 .cpic3{
     width: 300px;
     height: 230px;
-    margin: 10px;
-    flex-shrink: 0;
+    float: right;
     background-color: rgb(0, 191, 255);
 }
 .cpic4{
     width: 300px;
     height: 230px;
-    margin: 10px;
-    flex-shrink: 0;
+    float: right;
     background-color: rgb(252, 255, 52);
 }
 
