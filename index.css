@@ -98,10 +98,8 @@ h2{font-family: sans-serif;
 
 figure{
     float: right;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-right: 20px;
-    margin-left: 10px;
+    display: inline;
+    margin: 20px;
 }
 
 p{font-family: serif;
@@ -132,13 +130,6 @@ p{font-family: serif;
   font-size: 18px;
   line-height: 1.6;
 }
-
-.groupphoto {
-  height: 260px;
-  width: auto;
-  margin-left: 20px;
-}
-
 
 .card {
   width: 80%;
