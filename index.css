@@ -8,15 +8,26 @@ body{color:black;
 }
 
 
-.vlogo{display: block;
-       margin-bottom: 10px;
-      }
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* stack logo on top, row2 below */
+}
+
+.vlogo {
+  display: flex;
+  justify-content: flex-start; /* logo stays left */
+  margin-bottom: 5px;
+  padding-left: 10px; /* small space from left edge (optional) */
+}
 
 .row2 {
   display: flex;
   justify-content: space-between; /* ul on left, buttons on right */
   align-items: center;
-  padding: 0 10px;  /* slight horizontal padding (optional) */
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
 }
 
 /* --- Navigation list --- */
@@ -24,7 +35,7 @@ ul {
   display: flex;
   list-style-type: none;
   margin: 0;
-  padding: 0;        /* makes ul touch left edge */
+  padding: 0;
 }
 
 li {
@@ -38,6 +49,11 @@ li:last-child {
 }
 
 /* --- Language buttons --- */
+.lang-buttons {
+  display: flex;
+  align-items: center;
+}
+
 .lang-buttons button { 
   background-color: rgb(8, 139, 2);
   padding: 4px 8px;
@@ -48,10 +64,6 @@ li:last-child {
   margin-left: 8px;
 }
 
-.lang-buttons {
-  display: flex;
-  align-items: center;
-}
 
 
 li > a:link{color:blue
