@@ -16,14 +16,18 @@ const texts = {
     au3: "【ロゴについて】",
     au31: "当NPO団体のロゴの上の方にはダイヤモンドの岩石が5つあります。<br>ダイヤモンドは研がれなければ輝かない。この地球上のすべての人間はダイヤモンドの岩石であり、自分自身を研いて光り輝く人間になっていって欲しいという意味を込めてダイヤモンドの岩石をあしらっています。<br>ダイヤモンドの岩石が5つあしらわれている理由は、5という数字には「人との繋がり自己の自立」という意味が込められているからです。人生のあらゆる可能性を模索し、人生がより豊かになっていって欲しいという意味を込めて、ダイヤモンドの岩石を5つあしらいました。<br>そのダイヤモンドの岩石が水色な理由は、水色という色には、「変化」という意味が込められているからです。<br>今の自分に納得せず、より良い自分を目指して変化していって欲しいという意味を込めて水色にしました。",
     f1: "社会部",
-    f11:"",
+    f11:"〔活動内容〕<br>・災害復興支援 <br>・政治について語ろう会 <br>・動物の殺処分をゼロに！<br>社会部では政治家の方に来ていただいたり、<br>団体同士で戦略的業務提供を結び、<br>LSS内のみではなく、<br>外部も巻き込み活動をしています。",
     f2:"文化部",
-    f21: "",
+    f21: "〔活動内容〕<br>・老人ホームへの慰問<br>・日本の伝統文化継承<br>文化部では老人ホームを慰問させて頂き、<br>主に舞踊や詩吟、演歌を披露しています。<br>また、日本独特の季節行事や食事の文化の説明を<br>他言語で世界に向けて発信しています。",
     f3:"環境部",
     f31: "",
     f4: "知育部",
     f41:"",
     rg1:"私達NPO団体 Little SeedS Group は高校生が運営の主となり、活動しております。高校生主体での運営という過去に事例の少ないことに挑戦することはやりがいがあると共に不安も沢山あります。<br>しかし、心強い仲間と共に、<span class=”highlight”>「BEYOND EXPECTATIONS」</span>を理念に掲げ、仲間と御支援者の皆様のお力をお借りして全身全霊で挑戦し続けて参ります。<br>明日を明るい未来にする為に団体一丸となり尽力して参ります。",
+    AU: "私たちについて",
+    FPil: "４つの柱",
+    RG: "代表挨拶",
+    CU: "公式SNS",
   },
   en: {
     n1: "About Us",
@@ -41,14 +45,18 @@ const texts = {
     au3: "【Our Logo】",
     au31: "At the top of our NPO's logo are five diamond-shaped stones. <br>Diamonds won't shine unless they are polished. Every person on this earth is like a diamond stone, and we have incorporated these stones to convey our wish that everyone polishes themselves to become shining individuals.<br> The reason five diamond stones are featured is because the number five embodies the meaning of “connections with others and self-reliance.” We incorporated five diamond stones to express our wish for people to explore all possibilities in life and for their lives to become richer. <br>The reason these diamond stones are light blue is because the color light blue carries the meaning of “change.”<br> We chose light blue to convey our hope that people will not settle for their current selves but strive to change and become better versions of themselves.",
     f1: "Social Department",
-    f11:"",
+    f11:"[Activities] <br>・Disaster Recovery Support<br>・Let's Talk Politics Meetings<br>・End Animal Euthanasia!<br>The Social Affairs Department invites politicians to speak,<br>forms strategic partnerships with other organizations,<br> and engages in activities that extend beyond LSS to involve external stakeholders.",
     f2:"Cultural Department",
-    f21: "",
+    f21: "[Activities]<br>・Visiting nursing homes<br>・Preserving Japanese traditional culture<br>The Cultural Department visits nursing homes,<br>primarily performing dance, poetry recitation, and enka songs.<br>We also explain Japan's unique seasonal events and food culture<br>to the world in multiple languages.",
     f3:"Environmental Department",
     f31: "",
     f4: "Educational Department",
     f41:"",
     rg1:"We, the NPO Little SeedS Group, are primarily run by high school students. Taking on the challenge of student-led operations—a rare endeavor—is both rewarding and filled with uncertainty. However, with our reassuring comrades and guided by our philosophy of <span class=”highlight”>“BEYOND EXPECTATIONS”</span>, we will continue to challenge ourselves wholeheartedly, borrowing the support of our peers and supporters. <br>We will strive as one organization to make tomorrow a brighter future.",
+    AU: "About Us",
+    FPil: "4 Pillars",
+    RG: "Representative's Greetings",
+    CU: "Official SNS",
   }
 };
 
@@ -73,8 +81,10 @@ function setLanguage(lang) {
   document.getElementById('f31').innerHTML = texts[lang].f31;
   document.getElementById('f4').innerHTML = texts[lang].f4;
   document.getElementById('rg1').innerHTML = texts[lang].rg1;
-  document.getElementById('rg1').innerHTML = texts[lang].rg1;
-
+  document.getElementById('AU').innerHTML = texts[lang].AU;
+  document.getElementById('FPil').innerHTML = texts[lang].FPil;
+  document.getElementById('RG').innerHTML = texts[lang].RG;
+  document.getElementById('CU').innerHTML = texts[lang].CU;
 };
 
 
