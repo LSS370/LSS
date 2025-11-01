@@ -35,7 +35,7 @@ const texts = {
     n4: `Official SNS`,
     //opening
     ot: `BEYOND EXPECTATIONS`,
-    od: ``,
+    od: `Small Acts of Kindness<br>   Brings Big Changes<br>       Connecting People and Local to the Future`,
     //about us
     au1: `【About Us】`,
     au11: `We are a NPO organization primarily run by high school students since 2024. At LSS, we position <span class="highlight">“BEYOND EXPECTATIONS”</span> as our group's top priority and conduct our activities accordingly.<br> Furthermore, our organization champions the motto <span class=\"highlight\">“Small Acts of Kindness, Brings Big Changes”</span>. Instead of doing big things beyond our means, we focus on doing what we can—no matter how small—with care and consistency. <br>We believe that when everyone does their part, even in small ways, it will eventually bring about significant change. Our activities are diverse, and starting in fiscal year 2025, we will launch overseas branches, actively contributing both domestically and internationally.`,
