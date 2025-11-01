@@ -16,7 +16,6 @@ nav{display: flex;
 .vlogo{display: block;
        margin-bottom: 10px;
       }
-    
 
 ul{ display: flex;                   /* replaces inline + text-align */
   gap: 10px;                       /* even space between items */
@@ -38,9 +37,6 @@ li > a:link{color:blue
 }
 li > a:visited{color:purple;
 }
-
-
-
 
 h1{ font-size:36px;
     text-align: left;
@@ -66,7 +62,6 @@ h2{font-family: sans-serif;
     margin-left: 0px;
     margin-right: 0px;
 }
-
 
 figure{
     float: right;
@@ -111,14 +106,30 @@ margin-left: auto;
   align-items: center;
 }
 
-.opening{
-    margin: 20px;
-    align-content: center;
-    width: auto;
-    height: 500px;
-    background-color: rgb(8, 139, 2);
-    overflow: hidden;
+.opening {
+  margin: 20px;
+  display: flex;                /* 👈 key line: place text & image side by side */
+  justify-content: space-between; /* text on left, image on right */
+  align-items: center;          /* vertically center both */
+  background-color: rgb(8, 139, 2);
+  height: 500px;
+  overflow: hidden;
+  padding: 20px;
 }
+
+.opening-text {
+  flex: 1;                      /* text fills available space */
+  color: white;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.opening img {
+  height: 260px;
+  width: auto;
+  margin-left: 20px;
+}
+
 
 .card {
   width: 80%;
@@ -140,9 +151,6 @@ margin-left: auto;
   background-color: rgb(255, 145, 0);
   border-radius: 5px;
 }
-
-
-
 .cpic2{
     width: 300px;
     height: 230px;
