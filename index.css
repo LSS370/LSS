@@ -8,11 +8,15 @@ body{color:black;
 }
 
 nav{display: flex;
-  justify-content: space-between;  /* spread items across */
-  align-items: center;             /* vertically center */
-  padding: 10px 20px;
-  background-color: white;  
+  justify-content: space-between; /* ul on left, buttons on right */
+  align-items: center;
+  padding: 0 10px;  /* slight horizontal padding (optional) */
 }
+
+.vlogo{display: block;
+       margin-bottom: 10px;
+      }
+    
 
 ul{ display: flex;                   /* replaces inline + text-align */
   gap: 10px;                       /* even space between items */
@@ -80,6 +84,7 @@ p{font-family: serif;
     padding-right: 10px;
     padding-bottom: 20px;
     margin: 0px;
+    margin-left: 0px;
 }
 
 .head{
@@ -162,7 +167,8 @@ margin-left: auto;
 }
 
 .representative{
+    display: inline;
     float: right;
+    margin: 10px;
 }
-.rg{display: block;}
-.cu{display: block; }
+
