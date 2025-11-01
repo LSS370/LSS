@@ -96,12 +96,6 @@ h2{font-family: sans-serif;
     margin-right: 0px;
 }
 
-figure{
-    float: right;
-    display: inline;
-    margin: 20px;
-}
-
 p{font-family: serif;
     text-align: left;
     font-size: 13px;
@@ -129,6 +123,12 @@ p{font-family: serif;
   color: white;
   font-size: 18px;
   line-height: 1.6;
+}
+
+.opening img {
+  height: 260px;
+  width: auto;
+  margin-left: 20px;
 }
 
 .card {
