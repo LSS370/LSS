@@ -17,21 +17,47 @@ nav{display: flex;
        margin-bottom: 10px;
       }
 
-ul{ display: flex;                   /* replaces inline + text-align */
-  gap: 10px;                       /* even space between items */
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.row2 {
+  display: flex;
+  justify-content: space-between; /* ul on left, buttons on right */
+  align-items: center;
+  padding: 0 10px;  /* slight horizontal padding (optional) */
 }
+
+/* --- Navigation list --- */
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;        /* makes ul touch left edge */
+}
+
 li {
-  border-right: 2px solid black;
-  padding: 0 8px;
   font-size: 16px;
+  padding: 0 8px;
+  border-right: 2px solid black;
 }
 
 li:last-child {
-  border-right: none; /* remove border on last item */
+  border-right: none;
 }
+
+/* --- Language buttons --- */
+.lang-buttons button { 
+  background-color: rgb(8, 139, 2);
+  padding: 4px 8px;
+  color: white;
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
+.lang-buttons {
+  display: flex;
+  align-items: center;
+}
+
 
 li > a:link{color:blue
 }
@@ -174,9 +200,14 @@ margin-left: auto;
     color: rgb(8, 139, 2);
 }
 
+.rg-text{
+    max-width: 80%;
+}
+
 .representative{
     display: inline;
     float: right;
-    margin: 10px;
+    margin: 20px;
+    height: 260px;
 }
 
