@@ -101,6 +101,11 @@ margin-left: auto;
   cursor: pointer;
 }
 
+.lang-buttons {
+  display: flex;
+  align-items: center;
+}
+
 .opening{
     margin: 20px;
     align-content: center;
