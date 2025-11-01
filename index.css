@@ -7,8 +7,37 @@ body{color:black;
     overflow-y: scroll;
 }
 
-.vlogo{ margin-bottom: 10px;
+nav{display: flex;
+  justify-content: space-between;  /* spread items across */
+  align-items: center;             /* vertically center */
+  padding: 10px 20px;
+  background-color: white;  
 }
+
+ul{ display: flex;                   /* replaces inline + text-align */
+  gap: 10px;                       /* even space between items */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  border-right: 2px solid black;
+  padding: 0 8px;
+  font-size: 16px;
+}
+
+li:last-child {
+  border-right: none; /* remove border on last item */
+}
+
+li > a:link{color:blue
+}
+li > a:visited{color:purple;
+}
+
+
+
+
 h1{ font-size:36px;
     text-align: left;
     font-weight: bold 700;
@@ -60,34 +89,6 @@ margin-left: auto;
     width: 500px;}
 
 
-ul{ text-align: left;
-    list-style-type: none;
-    margin: 0px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    font-size: 0px;
-
-}
-li.firstchild{
-    padding-left: 0px;
-    margin-left:0px;
-}
-li{ display: inline;
-    font-size: 16px;
-    padding-left: 5px;
-    padding-right: 5px;
-    border-right: solid 2px black;
-}
-
-li > a:link{color:blue
-}
-li > a:visited{color:purple;
-}
-
-nav{align-content: center;
-    margin-left: auto;
-    margin-right: auto;}
-
 
 .lang-buttons button {
   margin-top: 20px;
@@ -98,7 +99,6 @@ nav{align-content: center;
   border: 2px; 
   border-radius: 5px;
   cursor: pointer;
-  float: right;
 }
 
 .opening{
