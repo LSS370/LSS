@@ -7,11 +7,6 @@ body{color:black;
     overflow-y: scroll;
 }
 
-nav{display: flex;
-  justify-content: space-between; /* ul on left, buttons on right */
-  align-items: center;
-  padding: 0 10px;  /* slight horizontal padding (optional) */
-}
 
 .vlogo{display: block;
        margin-bottom: 10px;
@@ -150,7 +145,7 @@ margin-left: auto;
   line-height: 1.6;
 }
 
-.opening img {
+.groupphoto {
   height: 260px;
   width: auto;
   margin-left: 20px;
