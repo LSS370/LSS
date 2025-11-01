@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="index.css">
 
 const texts = {
   ja: {
