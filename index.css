@@ -176,6 +176,7 @@ p{font-family: serif;
 
 .rg-text{
     max-width: 80%;
+    overflow: auto;
 }
 
 .representative{
