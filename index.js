@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="index.css">
-
 const texts = {
   ja: {
     n1: `私たちについて`,
@@ -53,7 +51,7 @@ const texts = {
     f31: ``,
     f4: `Educational Department`,
     f41:``,
-    rg1:`We, the NPO Little SeedS Group, are primarily run by high school students. Taking on the challenge of student-led operations—a rare endeavor—is both rewarding and filled with uncertainty. However, with our reassuring comrades and guided by our philosophy of <span class=”highlight”>“BEYOND EXPECTATIONS”</span>, we will continue to challenge ourselves wholeheartedly, borrowing the support of our peers and supporters. <br>We will strive as one organization to make tomorrow a brighter future.`,
+    rg1:`We, the NPO Little SeedS Group, are primarily run by high school students. Taking on the challenge of student-led operations—a rare endeavor—is both rewarding and filled with uncertainty. However, with our reassuring comrades and guided by our philosophy of <span class="highlight">“BEYOND EXPECTATIONS”</span>, we will continue to challenge ourselves wholeheartedly, borrowing the support of our peers and supporters. <br>We will strive as one organization to make tomorrow a brighter future.`,
     AU: `About Us`,
     FPil: `4 Pillars`,
     RG: `Representative's Greetings`,
@@ -90,4 +88,4 @@ function setLanguage(lang) {
 
 
 // 初期言語設定
-setLanguage('ja');
+window.onload = () => { setLanguage('ja'); };
