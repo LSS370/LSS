@@ -115,30 +115,6 @@ p{font-family: serif;
     margin-left: 0px;
 }
 
-.head{
-margin-left: auto;
-    margin-right: auto;
-    align-content: center;
-    width: 500px;}
-
-
-
-.lang-buttons button {
-  margin-top: 20px;
-  margin-right: 8px;
-  background-color:rgb(8, 139, 2);
-  padding: 2px;
-  color: white;
-  border: 2px; 
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.lang-buttons {
-  display: flex;
-  align-items: center;
-}
-
 .opening {
   margin: 20px;
   display: flex;                /* 👈 key line: place text & image side by side */
