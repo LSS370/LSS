@@ -68,8 +68,6 @@ font-size:22px;
   margin-left: 8px;
 }
 
-
-
 li > a:link{color:blue
 }
 li > a:visited{color:purple;
@@ -99,6 +97,13 @@ h2{font-family: sans-serif;
     margin-left: 0px;
     margin-right: 0px;
 }
+
+nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 
 p{font-family: serif;
     text-align: left;
