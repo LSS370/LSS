@@ -187,7 +187,7 @@ p{font-family: serif;
     display: inline;
     float: right;
     margin: 20px;
-    margin-right: 60px;
+    margin-right: 100px;
     height: 260px;
 }
 .cpic{
@@ -199,8 +199,3 @@ p{font-family: serif;
     margin-right:10px;
 }
 
-.qr-sub{
-    display: inline;
-    text-align: center;
-    width: 250px;
-}
