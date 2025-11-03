@@ -111,26 +111,33 @@ p{font-family: serif;
 }
 
 .opening {
-  margin: 20px;
-  display: flex;                /* 👈 key line: place text & image side by side */
-  justify-content: space-between; /* text on left, image on right */
-  align-items: center;          /* vertically center both */
-  background-color: rgb(8, 139, 2);
-  height: 500px;
-  overflow: hidden;
-  padding: 20px;
+  position: relative;
+  background-color: rgb(86, 188, 108);
+  color: white;
+  padding: 50px 20px 20px; /* leave space for the title overlap */
+  text-align: left;
+}
+
+.opening-title {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  transform: translateY(-50%);
+  background: linear-gradient(white 50%, rgb(86, 188, 108) 50%);
+  padding: 0 10px;
+  font-size: 28px;
 }
 
 .opening-text {
-  flex: 1;  /* text fills available space */
+  margin-top: 40px; /* keeps it below the title visually */
+  max-width: 60%;
   font-size: 40px;
   font-weight: bold 700;
-  line-height: 1.6;
 }
 
-.opening img {
+.opening-img {
+  float: right;
   height: 400px;
-  width: auto;
   margin-left: 20px;
 }
 
@@ -160,26 +167,26 @@ p{font-family: serif;
     width: 520px;
     height: 370px;
   float: right;
-  background-color: rgb(255, 145, 0);
+  background-color: rgb(240, 149, 91);
   border-radius: 5px;
 }
 .cpic2{
     width: 520px;
     height: 370px;
     float: right;
-    background-color: rgb(255, 3, 3);
+    background-color: rgb(237, 114, 105);
 }
 .cpic3{
     width: 520px;
     height: 370px;
     float: right;
-    background-color: rgb(0, 191, 255);
+    background-color: rgb(155, 179, 249);
 }
 .cpic4{
     width: 520px;
     height: 370px;
     float: right;
-    background-color: rgb(252, 255, 52);
+    background-color: rgb(249, 222, 134);
 }
 
 .f {
