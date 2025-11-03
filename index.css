@@ -244,3 +244,9 @@ p{font-family: serif;
   text-align: center;
 }
 
+
+.rg, .CU {
+  display: block;
+  width: 100%;
+}
+
