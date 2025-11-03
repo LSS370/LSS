@@ -117,10 +117,12 @@ p{font-family: serif;
   position: relative;
   background-color: rgb(86, 188, 108);
   color: black;
-  padding: 50px 20px 20px; /* leave space for the title overlap */
+  padding: 60px 20px 20px; /* leave space for the title overlap */
   text-align: left;
   height: 500px;
-  margin: 30px;
+  margin: 40px auto;          /* add margin around the box */
+  width: 80%;
+  overflow: hidden;
 }
 
 .opening-title {
@@ -131,20 +133,25 @@ p{font-family: serif;
   padding: 0 10px;
   font-size: 28px;
 }
-
-.opening-text {
-  margin-top: 40px; /* keeps it below the title visually */
-  max-width: 60%;
-  font-size: 40px;
-  font-weight: bold 700;
+.opening-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.opening-image {
-  display:inline;
-  float: right;
-  max-width: 30%;
+/* Left text area */
+.opening-text {
+  width: 55%;
+  font-size: 40px;
+  font-weight: bold 700;
+  line-height: 1.5;
+}
+/* Right image */
+.opening-img {
+  width: 40%;
   height: auto;
-  margin-left: 40px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 
 .card {
