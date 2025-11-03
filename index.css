@@ -39,7 +39,7 @@ ul {
 }
 
 li {
-  font-size: 16px;
+  font-size: 22px;
   padding: 0 8px;
   border-right: 2px solid black;
 }
@@ -55,6 +55,7 @@ li:last-child {
 }
 
 .lang-buttons button { 
+  font-size: 22px;
   background-color: rgb(8, 139, 2);
   padding: 4px 8px;
   color: white;
@@ -175,7 +176,7 @@ p{font-family: serif;
 }
 
 .rg-text{
-    max-width: 80%;
+    max-width: 60%;
     overflow: auto;
 }
 
@@ -183,10 +184,14 @@ p{font-family: serif;
     display: inline;
     float: right;
     margin: 20px;
+    margin-right: 60px;
     height: 260px;
 }
 .cpic{
     width: 500px;
     height: 350px;
-    margin:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    marrgin-left: 10px;
+    margin-right:10px;
 }
