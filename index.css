@@ -211,6 +211,14 @@ p{font-family: serif;
   margin-top: 6px;
   text-align: center;
 }
+
+.rg::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
 .CU{margin-top:20px;
 }
 .qr-container {
