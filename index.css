@@ -211,7 +211,8 @@ p{font-family: serif;
   margin-top: 6px;
   text-align: center;
 }
-
+.CU{margin-top:20px;
+}
 .qr-container {
   display: flex;
   justify-content: center;
