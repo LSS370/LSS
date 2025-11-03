@@ -178,6 +178,8 @@ p{font-family: serif;
     color: rgb(8, 139, 2);
 }
 
+.rg{display: block;
+}
 .rg-text{
     max-width: 60%;
     overflow: auto;
@@ -198,7 +200,9 @@ p{font-family: serif;
 
 .rgsub {
   margin-top: 6px;
+    text-align: center;
 }
+
 .cpic{
     width: 500px;
     height: 350px;
