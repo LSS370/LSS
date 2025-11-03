@@ -132,6 +132,7 @@ p{font-family: serif;
   transform: translateY(-50%);
   padding: 0 10px;
   font-size: 40px;
+  font-weight: bold 700;
 }
 .opening-content {
   display: flex;
