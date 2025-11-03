@@ -98,7 +98,7 @@ h2{font-family: sans-serif;
     margin-right: 0px;
 }
 
-nav::after {
+.nav::after {
   content: "";
   display: block;
   clear: both;
@@ -142,7 +142,8 @@ p{font-family: serif;
 
 .opening-img {
   float: right;
-  width: 400px;
+  max-width: 30%;
+  height: auto;
   margin-left: 20px;
 }
 
