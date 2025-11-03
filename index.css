@@ -85,7 +85,7 @@ h1 > a {color: black;
 }
 
 h2{font-family: sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     text-align: left;
     padding-top: 0px;
     padding-bottom: 10px;
@@ -98,13 +98,13 @@ h2{font-family: sans-serif;
 
 p{font-family: serif;
     text-align: left;
-    font-size: 13px;
+    font-size: 16px;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
     margin: 0px;
-    margin-left: 0px;
+    margin-left: 10px;
 }
 
 .opening {
@@ -121,12 +121,12 @@ p{font-family: serif;
 .opening-text {
   flex: 1;                      /* text fills available space */
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.6;
 }
 
 .opening img {
-  height: 260px;
+  height: 400px;
   width: auto;
   margin-left: 20px;
 }
@@ -145,27 +145,27 @@ p{font-family: serif;
 
 /* one example — you can keep cpic1~4 with color differences */
 .cpic1 {
-  width: 300px;
-  height: 230px;
+  width: 500px;
+  height: 300px;
   float: right;
   background-color: rgb(255, 145, 0);
   border-radius: 5px;
 }
 .cpic2{
-    width: 300px;
-    height: 230px;
+    width: 500px;
+    height: 300px;
     float: right;
     background-color: rgb(255, 3, 3);
 }
 .cpic3{
-    width: 300px;
-    height: 230px;
+    width: 500px;
+    height: 300px;
     float: right;
     background-color: rgb(0, 191, 255);
 }
 .cpic4{
-    width: 300px;
-    height: 230px;
+    width: 500px;
+    height: 300px;
     float: right;
     background-color: rgb(252, 255, 52);
 }
