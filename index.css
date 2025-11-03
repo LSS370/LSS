@@ -36,6 +36,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+font-sice:22px;
 }
 
 li {
@@ -52,6 +53,7 @@ li:last-child {
 .lang-buttons {
   display: flex;
   align-items: center;
+font-size:22px;
 }
 
 .lang-buttons button { 
@@ -120,9 +122,10 @@ p{font-family: serif;
 }
 
 .opening-text {
-  flex: 1;                      /* text fills available space */
+  flex: 1;  /* text fills available space */
   color: white;
   font-size: 40px;
+  font-weight: bold 700;
   line-height: 1.6;
 }
 
