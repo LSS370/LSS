@@ -120,9 +120,8 @@ p{font-family: serif;
   padding: 60px 20px 20px; /* leave space for the title overlap */
   text-align: left;
   height: 500px;
-  margin: 40px auto;          /* add margin around the box */
+  margin: 60px auto;          /* add margin around the box */
   width: 80%;
-  overflow: hidden;
 }
 
 .opening-title {
@@ -151,7 +150,7 @@ p{font-family: serif;
 }
 /* Right image */
 .opening-img {
-  width: 0 0 40%;
+  width: 500px;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
