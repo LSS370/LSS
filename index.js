@@ -27,6 +27,7 @@ const texts = {
     FPil:`４つの柱`,
     RG: `代表挨拶`,
     CU: `公式SNS`,
+    rgsub: `統括総長 <br> 栗山恭輔`,
   },
   en: {
     n1: `About Us`,
@@ -56,6 +57,7 @@ const texts = {
     FPil: `4 Pillars`,
     RG: `Representative's Greetings`,
     CU: `Official SNS`,
+    rgsub: `General Director<br> Kyosuke Kuriyama`,
   }
 };
 
@@ -84,6 +86,7 @@ function setLanguage(lang) {
   document.getElementById('FPil').innerHTML = texts[lang].FPil;
   document.getElementById('RG').innerHTML = texts[lang].RG;
   document.getElementById('CU').innerHTML = texts[lang].CU;
+  document.getElementById('rgsub').innerHTML = texts[lang].rgsub;
 };
 
 
