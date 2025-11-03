@@ -149,8 +149,8 @@ p{font-family: serif;
   line-height: 1.5;
 }
 /* Right image */
-.opening-img {
-  width: 500px;
+.opening-image {
+  width: 0 0 50%;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
