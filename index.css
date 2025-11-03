@@ -12,6 +12,7 @@ nav {
   width: 100%;
   display: flex;
   flex-direction: column; /* stack logo on top, row2 below */
+  margin-bottom: 30px;
 }
 
 .vlogo {
@@ -123,7 +124,6 @@ p{font-family: serif;
   top: 0;
   left: 20px;
   transform: translateY(-50%);
-  background: linear-gradient(white 50%, rgb(86, 188, 108) 50%);
   padding: 0 10px;
   font-size: 28px;
 }
@@ -137,7 +137,7 @@ p{font-family: serif;
 
 .opening-img {
   float: right;
-  height: 400px;
+  width: 400px;
   margin-left: 20px;
 }
 
