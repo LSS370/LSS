@@ -214,18 +214,26 @@ p{font-family: serif;
 
 .qr-container {
   display: flex;
-  justify-content: center;   /* centers all QR items horizontally */
-  flex-wrap: wrap;           /* allows wrapping if the screen is small */
-  gap: 20px;                 /* adds space between each QR */
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
   margin-top: 20px;
 }
 
 .qr-item {
-  text-align: center;        /* centers caption under each image */
+  text-align: center;
+}
+
+.qr-item img {
+  display: block;
+  margin: 0 auto;
 }
 
 .qr-caption {
   font-size: 14px;
   margin-top: 8px;
   color: #444;
+  text-align: center;
 }
+
