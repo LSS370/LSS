@@ -6,7 +6,7 @@ const texts = {
     n4: `公式SNS`,
     //opening
     ot: `BEYOND EXPECTATIONS`,
-    od: `小さな善意、<br>   大きな変化<br>   人と地域と未来をつなぐ`,
+    od: `小さな善意、<br>   大きな変化<br>    人と地域と未来をつなぐ`,
     //about us
     au1: `【私たちについて】`,
     au11: `2024年(令和6年)より、高校生が運営の中心となり活動しているNPO団体です。LSSでは、<span class="highlight">「BEYOND EXPECTATIONS」</span>をグループの最重要事項と位置付け活動をしています。<br>また、当団体は<span class="highlight">「小さな善意、大きな変化」</span>を掲げています。大きなことを背伸びしてするのではなく、自分ができることをたとえ小さなことであっても丁寧に確実にやっていく。<br>当団体は、「皆んながそれぞれに出来る小さなことをやっていくとそれがいずれ大きな変化をもたらす」そう信じています。活動は多岐に渡り、2025年度からは、海外支部も発足し、国内外問わず活躍しております。`,
@@ -36,7 +36,7 @@ const texts = {
     n4: `Official SNS`,
     //opening
     ot: `BEYOND EXPECTATIONS`,
-    od: `Small Acts of Kindness<br>   Brings Big Changes<br>       Connecting People and Local to the Future`,
+    od: `Small Acts of Kindness<br>   Brings Big Changes<br>       Connecting People<br> and Local to the Future`,
     //about us
     au1: `【About Us】`,
     au11: `We are a NPO organization primarily run by high school students since 2024. At LSS, we position <span class="highlight">“BEYOND EXPECTATIONS”</span> as our group's top priority and conduct our activities accordingly.<br> Furthermore, our organization champions the motto <span class=\"highlight\">“Small Acts of Kindness, Brings Big Changes”</span>. Instead of doing big things beyond our means, we focus on doing what we can—no matter how small—with care and consistency. <br>We believe that when everyone does their part, even in small ways, it will eventually bring about significant change. Our activities are diverse, and starting in fiscal year 2025, we will launch overseas branches, actively contributing both domestically and internationally.`,
