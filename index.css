@@ -119,8 +119,8 @@ p{font-family: serif;
   color: black;
   padding: 50px 20px 20px; /* leave space for the title overlap */
   text-align: left;
-  min-height: 300px;
-  margin: 20px 10px;
+  height: 500px;
+  margin: 30px;
 }
 
 .opening-title {
@@ -144,7 +144,7 @@ p{font-family: serif;
   float: right;
   max-width: 30%;
   height: auto;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .card {
