@@ -123,7 +123,6 @@ p{font-family: serif;
 
 .opening-text {
   flex: 1;  /* text fills available space */
-  color: white;
   font-size: 40px;
   font-weight: bold 700;
   line-height: 1.6;
