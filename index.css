@@ -198,3 +198,9 @@ p{font-family: serif;
     marrgin-left: 10px;
     margin-right:10px;
 }
+
+.qr-sub{
+    display: inline;
+    text-align: center;
+    width: 250px;
+}
