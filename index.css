@@ -121,7 +121,7 @@ p{font-family: serif;
 .opening-text {
   flex: 1;                      /* text fills available space */
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 1.6;
 }
 
@@ -133,7 +133,7 @@ p{font-family: serif;
 
 .card {
   width: 80%;
-  min-height: 350px;          /* use min-height so it can expand if needed */
+  min-height: 370px;          /* use min-height so it can expand if needed */
   border-radius: 10px;
   box-shadow: 10px 10px 5px #808080;
   background-color: white;
@@ -145,27 +145,27 @@ p{font-family: serif;
 
 /* one example — you can keep cpic1~4 with color differences */
 .cpic1 {
-  width: 500px;
-  height: 350px;
+    width: 520px;
+    height: 370px;
   float: right;
   background-color: rgb(255, 145, 0);
   border-radius: 5px;
 }
 .cpic2{
-    width: 500px;
-    height: 350px;
+    width: 520px;
+    height: 370px;
     float: right;
     background-color: rgb(255, 3, 3);
 }
 .cpic3{
-    width: 500px;
-    height: 350px;
+    width: 520px;
+    height: 370px;
     float: right;
     background-color: rgb(0, 191, 255);
 }
 .cpic4{
-    width: 500px;
-    height: 350px;
+    width: 520px;
+    height: 370px;
     float: right;
     background-color: rgb(252, 255, 52);
 }
@@ -188,4 +188,5 @@ p{font-family: serif;
 .cpic{
     width: 500px;
     height: 350px;
+    margin:10px;
 }
