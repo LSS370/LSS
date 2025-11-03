@@ -85,7 +85,7 @@ h1 > a {color: black;
 }
 
 h2{font-family: sans-serif;
-    font-size: 20px;
+    font-size: 26px;
     text-align: left;
     padding-top: 0px;
     padding-bottom: 10px;
@@ -98,7 +98,7 @@ h2{font-family: sans-serif;
 
 p{font-family: serif;
     text-align: left;
-    font-size: 16px;
+    font-size: 22px;
     padding-top: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -121,7 +121,7 @@ p{font-family: serif;
 .opening-text {
   flex: 1;                      /* text fills available space */
   color: white;
-  font-size: 20px;
+  font-size: 30px;
   line-height: 1.6;
 }
 
@@ -133,7 +133,7 @@ p{font-family: serif;
 
 .card {
   width: 80%;
-  min-height: 300px;          /* use min-height so it can expand if needed */
+  min-height: 350px;          /* use min-height so it can expand if needed */
   border-radius: 10px;
   box-shadow: 10px 10px 5px #808080;
   background-color: white;
@@ -146,26 +146,26 @@ p{font-family: serif;
 /* one example — you can keep cpic1~4 with color differences */
 .cpic1 {
   width: 500px;
-  height: 300px;
+  height: 350px;
   float: right;
   background-color: rgb(255, 145, 0);
   border-radius: 5px;
 }
 .cpic2{
     width: 500px;
-    height: 300px;
+    height: 350px;
     float: right;
     background-color: rgb(255, 3, 3);
 }
 .cpic3{
     width: 500px;
-    height: 300px;
+    height: 350px;
     float: right;
     background-color: rgb(0, 191, 255);
 }
 .cpic4{
     width: 500px;
-    height: 300px;
+    height: 350px;
     float: right;
     background-color: rgb(252, 255, 52);
 }
@@ -186,6 +186,6 @@ p{font-family: serif;
     height: 260px;
 }
 .figure{
-    width: 480px;
-    height: auto;
+    width: 500px;
+    height: 350px;
 }
