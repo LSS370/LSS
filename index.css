@@ -147,6 +147,15 @@ p{font-family: serif;
   position: relative;          /* helps control child layout */
 }
 
+.cpic{
+    width: 500px;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    marrgin-left: 10px;
+    margin-right:10px;
+}
+
 /* one example — you can keep cpic1~4 with color differences */
 .cpic1 {
     width: 520px;
@@ -203,12 +212,20 @@ p{font-family: serif;
     text-align: center;
 }
 
-.cpic{
-    width: 500px;
-    height: 350px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    marrgin-left: 10px;
-    margin-right:10px;
+.qr-container {
+  display: flex;
+  justify-content: center;   /* centers all QR items horizontally */
+  flex-wrap: wrap;           /* allows wrapping if the screen is small */
+  gap: 20px;                 /* adds space between each QR */
+  margin-top: 20px;
 }
 
+.qr-item {
+  text-align: center;        /* centers caption under each image */
+}
+
+.qr-caption {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #444;
+}
