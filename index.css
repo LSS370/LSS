@@ -183,12 +183,21 @@ p{font-family: serif;
     overflow: auto;
 }
 
-.representative{
-    display: inline;
-    float: right;
-    margin: 20px;
-    margin-right: 100px;
-    height: 260px;
+.rep-container {
+  float: right;
+  text-align: center;     /* centers the caption under image */
+  margin: 20px;
+  margin-right: 100px;
+}
+
+.representative {
+  height: 260px;
+  display: block;         /* ensures caption starts below image */
+  margin: 0 auto;
+}
+
+.rgsub {
+  margin-top: 6px;
 }
 .cpic{
     width: 500px;
