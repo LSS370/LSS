@@ -183,6 +183,16 @@ p{font-family: serif;
     background-color: rgb(252, 255, 52);
 }
 
+.f {
+  margin-bottom: 60px;
+}
+
+.f::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 .highlight{
     color: rgb(8, 139, 2);
 }
