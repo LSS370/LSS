@@ -133,7 +133,7 @@ p{font-family: serif;
 
 .card {
   width: 80%;
-  min-height: 250px;          /* use min-height so it can expand if needed */
+  min-height: 300px;          /* use min-height so it can expand if needed */
   border-radius: 10px;
   box-shadow: 10px 10px 5px #808080;
   background-color: white;
@@ -185,4 +185,7 @@ p{font-family: serif;
     margin: 20px;
     height: 260px;
 }
-
+.figure{
+    width: 480px;
+    height: auto;
+}
