@@ -138,18 +138,20 @@ p{font-family: serif;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: nowrap;           /* prevents wrapping */
+  gap: 20px;  
 }
 
 /* Left text area */
 .opening-text {
-  width: 40%;
+  width: 1 1 40%;
   font-size: 40px;
   font-weight: bold 700;
   line-height: 1.5;
 }
 /* Right image */
 .opening-img {
-  width: 50%;
+  width: 0 0 50%;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
