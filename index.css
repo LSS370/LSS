@@ -209,7 +209,10 @@ p{font-family: serif;
 
 .rgsub {
   margin-top: 6px;
-    text-align: center;
+  text-align: center;
+}
+
+.CU{display:block;
 }
 
 .qr-container {
@@ -231,9 +234,7 @@ p{font-family: serif;
 }
 
 .qr-caption {
-  font-size: 14px;
   margin-top: 8px;
-  color: #444;
   text-align: center;
 }
 
