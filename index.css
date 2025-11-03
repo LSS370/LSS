@@ -131,7 +131,7 @@ p{font-family: serif;
   left: 20px;
   transform: translateY(-50%);
   padding: 0 10px;
-  font-size: 28px;
+  font-size: 40px;
 }
 .opening-content {
   display: flex;
@@ -141,14 +141,14 @@ p{font-family: serif;
 
 /* Left text area */
 .opening-text {
-  width: 55%;
+  width: 40%;
   font-size: 40px;
   font-weight: bold 700;
   line-height: 1.5;
 }
 /* Right image */
 .opening-img {
-  width: 40%;
+  width: 50%;
   height: auto;
   border-radius: 8px;
   object-fit: cover;
