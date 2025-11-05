@@ -159,8 +159,21 @@ p{font-family: serif;
   display: block;
 }
 
+.au{margin: 20px;
+}
+
 .logo-exp{
     max-width: 55%
+}
+
+.logo{float: right;
+      max-width: 45%;
+      height: auto;
+}
+.au::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 
