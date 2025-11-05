@@ -172,7 +172,7 @@ p{font-family: serif;
 }
 
 .logoexp {
-  max-width: 55%;
+  max-width: 50%;
   display: inline-block; /* so max-width actually takes effect */
   vertical-align: top;
 }
