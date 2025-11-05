@@ -159,6 +159,11 @@ p{font-family: serif;
   display: block;
 }
 
+.logo-exp{
+    max-width: 55%
+}
+
+
 .card {
   width: 80%;
   min-height: 370px;          /* use min-height so it can expand if needed */
