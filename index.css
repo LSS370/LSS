@@ -77,7 +77,7 @@ li > a:link{color:blue
 li > a:visited{color:purple;
 }
 
-h1{ font-size:36px;
+h1{ font-size:44px;
     text-align: left;
     font-weight: bold 700;
     padding-top: 10px;
@@ -153,9 +153,9 @@ p{font-family: serif;
 }
 /* Right image */
 .opening-image {
-  width: 560px;
+  width: 580px;
   height: auto;
-  margin-right: 40px;
+  margin-right: 20px;
   object-fit: cover;
   display: block;
 }
