@@ -118,9 +118,9 @@ p{font-family: serif;
   position: relative;
   background-color: rgb(86, 188, 108);
   color: black;
-  padding: 60px 20px 20px; /* leave space for the title overlap */
+  padding: 10px 20px 20px; /* leave space for the title overlap */
   text-align: left;
-  height: 450px;
+  height: 500px;
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -151,7 +151,7 @@ p{font-family: serif;
 }
 /* Right image */
 .opening-image {
-  height: 410;
+  height: 480;
   width: auto;
   margin-right: 10px;
   object-fit: cover;
