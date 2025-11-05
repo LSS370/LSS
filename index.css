@@ -138,11 +138,10 @@ p{font-family: serif;
   font-weight: bold 700;
 }
 .opening-content {
+  height: calc(100% - 60px); /* leave space for title */
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: nowrap;           /* prevents wrapping */
-  gap: 10px;  
 }
 
 /* Left text area */
@@ -153,12 +152,11 @@ p{font-family: serif;
 }
 /* Right image */
 .opening-image {
-  width: 640px;
-  height: auto;
+  height: 100%;
+  width: auto;
   margin-right: 10px;
   object-fit: cover;
   display: block;
-  transform: translateY(-20px); /* move up slightly */
 }
 
 .au {
