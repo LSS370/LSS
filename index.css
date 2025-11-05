@@ -159,18 +159,24 @@ p{font-family: serif;
   display: block;
 }
 
-.au{margin: 20px;
+.au {
+  overflow: auto; /* contains floated .logo */
+  margin-bottom: 20px;
 }
 
-.logoexp{
-    max-width: 55%;
-    overflow: auto;
+.logo {
+  float: right;
+  max-width: 40%;
+  height: auto;
+  margin-left: 10px; /* space between image and text */
 }
 
-.logo{float: right;
-      max-width: 45%;
-      height: auto;
+.logoexp {
+  max-width: 55%;
+  display: inline-block; /* so max-width actually takes effect */
+  vertical-align: top;
 }
+
 .au::after {
   content: "";
   display: block;
