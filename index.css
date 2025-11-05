@@ -151,7 +151,7 @@ p{font-family: serif;
 }
 /* Right image */
 .opening-image {
-  height: 480;
+  height: 440;
   width: auto;
   margin-right: 10px;
   object-fit: cover;
