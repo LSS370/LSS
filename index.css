@@ -162,8 +162,9 @@ p{font-family: serif;
 .au{margin: 20px;
 }
 
-.logo-exp{
+.logoexp{
     max-width: 55%
+    overflow: auto;
 }
 
 .logo{float: right;
