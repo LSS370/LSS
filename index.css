@@ -153,11 +153,12 @@ p{font-family: serif;
 }
 /* Right image */
 .opening-image {
-  width: 620px;
+  width: 640px;
   height: auto;
   margin-right: 10px;
   object-fit: cover;
   display: block;
+  transform: translateY(-20px); /* move up slightly */
 }
 
 .au {
