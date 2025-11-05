@@ -89,8 +89,7 @@ h1 > a {color: black;
     text-decoration: none;
 }
 
-h2{font-family: sans-serif;
-    font-size: 26px;
+h2{ font-size: 26px;
     text-align: left;
     padding-top: 0px;
     padding-bottom: 10px;
@@ -153,7 +152,7 @@ p{font-family: serif;
 }
 /* Right image */
 .opening-image {
-  width: 550px;
+  width: 560px;
   height: auto;
   margin-right: 40px;
   object-fit: cover;
@@ -175,37 +174,51 @@ p{font-family: serif;
 .cpic{
     width: 500px;
     height: 350px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    marrgin-left: 10px;
-    margin-right:10px;
 }
 
-/* one example — you can keep cpic1~4 with color differences */
 .cpic1 {
     width: 520px;
     height: 370px;
   float: right;
   background-color: rgb(240, 149, 91);
-  border-radius: 5px;
+  display: flex;             /* centers image nicely */
+  justify-content: center;
+  align-items: center;
+  padding: 10px;             /* this adds space inside the colored box */
+  box-sizing: border-box;    /* ensures padding doesn’t expand box size */
 }
 .cpic2{
     width: 520px;
     height: 370px;
     float: right;
     background-color: rgb(237, 114, 105);
+    display: flex;             /* centers image nicely */
+  justify-content: center;
+  align-items: center;
+  padding: 10px;             /* this adds space inside the colored box */
+  box-sizing: border-box;    /* ensures padding doesn’t expand box size */
 }
 .cpic3{
     width: 520px;
     height: 370px;
     float: right;
     background-color: rgb(155, 179, 249);
+    display: flex;             /* centers image nicely */
+  justify-content: center;
+  align-items: center;
+  padding: 10px;             /* this adds space inside the colored box */
+  box-sizing: border-box;    /* ensures padding doesn’t expand box size */
 }
 .cpic4{
     width: 520px;
     height: 370px;
     float: right;
     background-color: rgb(249, 222, 134);
+    display: flex;             /* centers image nicely */
+  justify-content: center;
+  align-items: center;
+  padding: 10px;             /* this adds space inside the colored box */
+  box-sizing: border-box;    /* ensures padding doesn’t expand box size */
 }
 
 .f {
@@ -220,12 +233,14 @@ p{font-family: serif;
 
 .highlight{
     color: rgb(8, 139, 2);
+    font-weight: bold;
+    
 }
 
 .rg{margin-bottom: 20px;
 }
 .rg-text{
-    max-width: 60%;
+    max-width: 55%;
     overflow: auto;
 }
 
@@ -233,7 +248,7 @@ p{font-family: serif;
   float: right;
   text-align: center;     /* centers the caption under image */
   margin: 20px;
-  margin-right: 100px;
+  margin-right: 150px;
 }
 
 .representative {
