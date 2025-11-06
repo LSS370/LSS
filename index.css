@@ -276,7 +276,8 @@ p{font-family: serif;
 }
 
 .representative {
-  height: 260px;
+  height: 300px;
+  width: auto;
   display: block;         /* ensures caption starts below image */
   margin: 0 auto;
 }
