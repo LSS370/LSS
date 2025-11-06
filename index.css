@@ -162,7 +162,8 @@ p{font-family: serif;
   overflow: auto; /* contains floated .logo */
   margin-bottom: 20px;
 }
-
+.au-text{ margin-left: 40px;
+}
 .logo {
   float: right;
   max-width: 40%;
@@ -264,7 +265,7 @@ p{font-family: serif;
 .rg{margin-bottom: 20px;
 }
 .rg-text{
-    margin-left: 20px;
+    margin-left: 40px;
     max-width: 50%;
     overflow: auto;
 }
