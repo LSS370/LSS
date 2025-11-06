@@ -266,7 +266,7 @@ p{font-family: serif;
 }
 .rg-text{
     margin-left: 40px;
-    max-width: 50%;
+    max-width: 45%;
     overflow: auto;
 }
 
@@ -278,7 +278,7 @@ p{font-family: serif;
 }
 
 .representative {
-  height: 320px;
+  height: 340px;
   width: auto;
   display: block;         /* ensures caption starts below image */
   margin: 0 auto;
