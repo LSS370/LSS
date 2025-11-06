@@ -265,9 +265,12 @@ p{font-family: serif;
 .rg{margin-bottom: 20px;
 }
 .rg-text{
-    margin-left: 40px;
     max-width: 45%;
     overflow: auto;
+}
+
+.rg-textp{
+        margin-left: 40px;
 }
 
 .rep-container {
