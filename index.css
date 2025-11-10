@@ -238,7 +238,7 @@ p{font-family: serif;
     width: 520px;
     height: 370px;
     float: right;
-    background-color: rgb(249, 222, 134);
+    background-color: rgb(217, 198, 255);
     display: flex;             /* centers image nicely */
   justify-content: center;
   align-items: center;
