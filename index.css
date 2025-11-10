@@ -238,7 +238,7 @@ p{font-family: serif;
     width: 520px;
     height: 370px;
     float: right;
-    background-color: rgb(217, 198, 255);
+    background-color: rgb(249, 222, 134);
     display: flex;             /* centers image nicely */
   justify-content: center;
   align-items: center;
@@ -274,14 +274,15 @@ p{font-family: serif;
 }
 
 .rep-container {
+  background-color: rgb(217, 198, 255);
   float: right;
   text-align: center;     /* centers the caption under image */
   margin: 20px;
-  margin-right: 160px;
+  margin-right: 180px;
 }
 
 .representative {
-  height: 340px;
+  height: 360px;
   width: auto;
   display: block;         /* ensures caption starts below image */
   margin: 0 auto;
