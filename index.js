@@ -13,7 +13,7 @@ const texts = {
     au2: `【名称について】`,
     au21: `当団体の『Little SeedS』という名称は、私達が小さな種(Little Seeds)であり、私達が色んな所に広がり、綺麗な花を咲かせる。その種を皆んなに分け与え、皆んなで綺麗な花をさかせたい。という意味を込めて名付けました。`,
     au3: `【ロゴについて】`,
-    au31: `当NPO団体のロゴの上の方にはダイヤモンドの岩石が5つあります。<br>ダイヤモンドは研がれなければ輝かない。<br>この地球上のすべての人間はダイヤモンドの岩石であり、<br>自分自身を研いて光り輝く人間になっていって欲しいという意味を込めてダイヤモンドの岩石をあしらっています。<br>ダイヤモンドの岩石が5つあしらわれている理由は、5という数字には<br>「人との繋がり自己の自立」という意味が込められているからです。<br>人生のあらゆる可能性を模索し、人生がより豊かになっていって欲しいという意味を込めて、ダイヤモンドの岩石を5つあしらいました。<br>そのダイヤモンドの岩石が水色な理由は、水色という色には、「変化」という意味が込められているからです。<br>今の自分に納得せず、より良い自分を目指して変化していって欲しいという意味を込めて水色にしました。`,
+    au31: `当NPO団体のロゴの上の方にはダイヤモンドの岩石が5つあります。<br>ダイヤモンドは研がれなければ輝かない。<br>この地球上のすべての人間はダイヤモンドの岩石であり、<br>自分自身を研いて光り輝く人間になっていって欲しいという意味を込めてダイヤモンドの岩石をあしらっています。<br>ダイヤモンドの岩石が5つあしらわれている理由は、5という数字には「人との繋がり自己の自立」という意味が込められているからです。<br>人生のあらゆる可能性を模索し、人生がより豊かになっていって欲しいという意味を込めて、ダイヤモンドの岩石を5つあしらいました。<br>そのダイヤモンドの岩石が水色な理由は、水色という色には、「変化」という意味が込められているからです。<br>今の自分に納得せず、より良い自分を目指して変化していって欲しいという意味を込めて水色にしました。`,
     f1: `社会部`,
     f11:`〔活動内容〕<br>・災害復興支援 <br>・政治について語ろう会 <br>・動物の殺処分をゼロに！<br>社会部では政治家の方に来ていただいたり、<br>団体同士で戦略的業務提供を結び、<br>LSS内のみではなく、<br>外部も巻き込み活動をしています。`,
     f2:`文化部`,
@@ -36,10 +36,10 @@ const texts = {
     n4: `Official SNS`,
     //opening
     ot: `BEYOND EXPECTATIONS`,
-    od: `Small Acts of Kindness<br>   Brings Big Changes<br>       Connecting People<br> and Local to the Future`,
+    od: `Small Acts of Kindness<br>   Makes Big Changes<br>       Connecting People<br> and Local to the Future`,
     //about us
     au1: `【About Us】`,
-    au11: `We are a NPO organization primarily run by high school students since 2024. At LSS, we position <span class="highlight">“BEYOND EXPECTATIONS”</span> as our group's top priority and conduct our activities accordingly.<br> Furthermore, our organization champions the motto <span class=\"highlight\">“Small Acts of Kindness, Brings Big Changes”</span>. Instead of doing big things beyond our means, we focus on doing what we can—no matter how small—with care and consistency. <br>We believe that when everyone does their part, even in small ways, it will eventually bring about significant change. Our activities are diverse, and starting in fiscal year 2025, we will launch overseas branches, actively contributing both domestically and internationally.`,
+    au11: `We are a NPO organization primarily run by high school students since 2024. At LSS, we position <span class="highlight">“BEYOND EXPECTATIONS”</span> as our group's top priority and conduct our activities accordingly.<br> Furthermore, our organization champions the motto <span class=\"highlight\">“Small Acts of Kindness, Makes Big Changes”</span>. Instead of doing big things beyond our means, we focus on doing what we can—no matter how small—with care and consistency. <br>We believe that when everyone does their part, even in small ways, it will eventually bring about significant change. Our activities are diverse, and starting in fiscal year 2025, we will launch overseas branches, actively contributing both domestically and internationally.`,
     au2: `【Our Name】`,
     au21: `The name of our organization, ‘Little SeedS’, was chosen to convey that we are small seeds (Little Seeds) that spread to various places and bloom into beautiful flowers. We wish to share these seeds with everyone and together make beautiful flowers bloom.`,
     au3: `【Our Logo】`,
@@ -57,7 +57,7 @@ const texts = {
     FPil: `4 Pillars`,
     RG: `Representative's Greetings`,
     CU: `Official SNS`,
-    rgsub: `General Director<br> Kyosuke Kuriyama`,
+    rgsub: `Secretary General<br> Kyosuke Kuriyama`,
   }
 };
 
