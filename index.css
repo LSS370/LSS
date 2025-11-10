@@ -276,11 +276,13 @@ p{font-family: serif;
 .rep-container {
   background-color: rgb(217, 198, 255);
   float: right;
-  text-align: center;     /* centers the caption under image */
+  text-align: center;
   margin: 20px;
   margin-right: 220px;
   padding: 20px;
+  display: inline-block; /* this ensures padding visually wraps around contents */
 }
+
 
 .representative {
   height: 360px;
