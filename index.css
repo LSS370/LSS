@@ -278,8 +278,9 @@ p{font-family: serif;
   float: right;
   text-align: center;
   margin: 20px;
-  margin-right: 220px;
-  padding: 20px;
+  margin-right: 200px;
+  padding: 120px;
+  padding-bottom: 20px;
   display: inline-block; /* this ensures padding visually wraps around contents */
 }
 
