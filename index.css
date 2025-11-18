@@ -274,13 +274,10 @@ p{font-family: serif;
 }
 
 .rep-container {
-  background-color: rgb(217, 198, 255);
   float: right;
   text-align: center;
   margin: 20px;
   margin-right: 200px;
-  padding: 120px;
-  padding-bottom: 20px;
   display: inline-block; /* this ensures padding visually wraps around contents */
 }
 
