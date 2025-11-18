@@ -9,7 +9,7 @@ const texts = {
     od: `小さな善意、大きな変化で<br>    人と地域と未来をつなぐ`,
     //about us
     au1: `【私たちについて】`,
-    au11: `2024年(令和6年)より、高校生が運営の中心となり活動しているNPO団体です。LSSでは、<span class="highlight">「BEYOND EXPECTATIONS」</span>をグループの最重要事項と位置付け活動をしています。<br>また、当団体は<span class="highlight">「小さな善意、大きな変化」</span>を掲げています。大きなことを背伸びしてするのではなく、自分ができることをたとえ小さなことであっても丁寧に確実にやっていく。<br>当団体は、「皆んながそれぞれに出来る小さなことをやっていくとそれがいずれ大きな変化をもたらす」そう信じています。活動は多岐に渡り、2025年度からは、海外支部も発足し、国内外問わず活躍しております。`,
+    au11: `2024年(令和6年)より、高校生が運営の中心となり活動しているNPO団体です。LSSでは、<span class=”highlight”>「BEYOND EXPECTATIONS」</span>をグループの最重要事項と位置付け活動をしています。期待を超える感動を皆様に届けられるように日々活動しております。<br>また、当団体は<span class=”highlight”>「小さな善意、大きな変化」</span>を掲げています。大きなことを背伸びしてするのではなく、自分ができることをたとえ小さなことであっても丁寧に確実にやっていく。「皆んながそれぞれに出来る小さなことをやっていくとそれがいずれ大きな変化をもたらす」そう信じています。<br>当団体を一言で表すなら、<span class=”highlight”>「きっかけを提供する」</span>団体です。ボランティアに参加してみるきっかけ、社会問題について自分ごととして考えるきっかけ、自国や海外のことに目を向けるきっかけ。<br>そんな最初の一歩を生み出せるきっかけを提供出来るように活動しています。その活動は多岐に渡り、2025年度からは、海外支部も発足し、国内外問わず活躍しております。`,
     au2: `【名称について】`,
     au21: `当団体の『Little SeedS』という名称は、私達が小さな種(Little Seeds)であり、私達が色んな所に広がり、綺麗な花を咲かせる。その種を皆んなに分け与え、皆んなで綺麗な花をさかせたい。という意味を込めて名付けました。`,
     au3: `【ロゴについて】`,
@@ -19,9 +19,9 @@ const texts = {
     f2:`文化部`,
     f21: `〔活動内容〕<br>・老人ホームへの慰問<br>・日本の伝統文化継承<br>文化部では老人ホームを慰問させて頂き、<br>主に舞踊や詩吟、演歌を披露しています。<br>また、日本独特の季節行事や食事の文化の説明を<br>他言語で世界に向けて発信しています。`,
     f3:`環境部`,
-    f31: ``,
+    f31: `〔活動内容〕<br>・災害復興支援<br>・LSS Green Action 1.0始動！<br>環境部では、被災地に出向き、<br>災害復興支援のお手伝いをしたり、よりゴミ問題を中心とする<br>環境問題を解決するべく「LSS Green Action」を始動し、<br>各地域と協力し問題解決に向けて活動しています。`,
     f4: `知育部`,
-    f41:``,
+    f41:`〔活動内容〕<br>・保育園訪問<br>・多言語での教育活動<br>知育部では保育園を訪問させて頂いたり、<br>地域のコミュニティセンターで多言語を用いて、<br>子供達の将来の可能性を開花させるため、<br>グローバル教育を子供達に提供しています。`,
     rg1:`私達NPO団体 Little SeedS Group は高校生が運営の主となり、<br>活動しております。高校生主体での運営という過去に<br>事例の少ないことに挑戦することはやりがいがあると共に不安も沢山あります。<br>しかし、心強い仲間と共に、<span class="highlight">「BEYOND EXPECTATIONS」</span><br>を理念に掲げ、仲間と御支援者の皆様のお力をお借りして全身全霊で挑戦し続けて参ります。<br>明日を明るい未来にする為に団体一丸となり尽力して参ります。`,
     AU: `私たちについて`,
     FPil:`４つの柱`,
@@ -39,7 +39,7 @@ const texts = {
     od: `Small Acts of Kindness<br>   Makes Big Changes<br>       Connecting People<br> and Local to the Future`,
     //about us
     au1: `【About Us】`,
-    au11: `We are a NPO organization primarily run by high school students since 2024. At LSS, we position <span class="highlight">“BEYOND EXPECTATIONS”</span> as our group's top priority and conduct our activities accordingly.<br> Furthermore, our organization champions the motto <span class=\"highlight\">“Small Acts of Kindness, Makes Big Changes”</span>. Instead of doing big things beyond our means, we focus on doing what we can—no matter how small—with care and consistency. <br>We believe that when everyone does their part, even in small ways, it will eventually bring about significant change. Our activities are diverse, and starting in fiscal year 2025, we will launch overseas branches, actively contributing both domestically and internationally.`,
+    au11: `Since 2024, we have been an NPO organization primarily run by high school students. At LSS, we position <span class=”highlight”>“BEYOND EXPECTATIONS”</span> as our group's top priority. We work daily to deliver experiences that exceed expectations and inspire everyone. <br>Furthermore, our organization champions the motto <span class=”highlight”>“Small Acts of Kindness, Makes Big Changes”</span>. Rather than reaching beyond our means for grand gestures, we focus on doing what we can—no matter how small—with care and consistency. We believe that when everyone does their part, even in small ways, it will eventually bring about significant change. <br>In a single phrase, our organization is one that <span class=”highlight”>“provides opportunities”</span>. Opportunities to try volunteering, opportunities to consider social issues as personal issues, opportunities to turn our gaze toward matters within our own country and abroad. <br>We work to provide these opportunities that spark that first step. Our activities are diverse, and starting in fiscal year 2025, we have launched overseas branches, actively working both domestically and internationally.`,
     au2: `【Our Name】`,
     au21: `The name of our organization, ‘Little SeedS’, was chosen to convey that we are small seeds (Little Seeds) that spread to various places and bloom into beautiful flowers. We wish to share these seeds with everyone and together make beautiful flowers bloom.`,
     au3: `【Our Logo】`,
@@ -49,15 +49,15 @@ const texts = {
     f2:`Cultural Department`,
     f21: `[Activities]<br>・Visiting nursing homes<br>・Preserving Japanese traditional culture<br>The Cultural Department visits nursing homes,<br>primarily performing dance, poetry recitation, and enka songs.<br>We also explain Japan's unique seasonal events and food culture<br>to the world in multiple languages.`,
     f3:`Environmental Department`,
-    f31: ``,
+    f31: `[Activities]<br>・Disaster Recovery Support<br>・LSS Green Action 1.0 Launched!<br>The Environmental Department visits disaster-affected areas to assist with recovery efforts. We have also launched “LSS Green Action” to tackle environmental issues, particularly waste management. We collaborate with local communities to address these challenges.`,
     f4: `Educational Department`,
-    f41:``,
+    f41:`[Activities]<br>・Visiting daycare centers<br>・Multilingual educational activities<br>The Intellectual Development Department visits daycare centers<br>and conducts multilingual activities at local community centers<br>to provide children with global education,<br>helping them unlock their future potential.`,
     rg1:`We, the NPO Little SeedS Group, are primarily run by high school students. <br>Taking on the challenge of student-led operations—a rare endeavor—is both rewarding and filled with uncertainty. <br>However, with our reassuring comrades and guided by our philosophy of <span class="highlight">“BEYOND EXPECTATIONS”</span>, we will continue to challenge ourselves wholeheartedly, borrowing the support of our peers and supporters. <br>We will strive as one organization to make tomorrow a brighter future.`,
     AU: `About Us`,
     FPil: `4 Pillars`,
     RG: `Representative's Greetings`,
     CU: `Official SNS`,
-    rgsub: `Secretary General<br> Kyosuke Kuriyama`,
+    rgsub: `Secretary- General<br> Kyosuke Kuriyama`,
   }
 };
 
