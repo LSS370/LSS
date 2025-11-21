@@ -118,12 +118,12 @@ p{font-family: serif;
   left: 20px;
   transform: translateY(-50%);
   padding: 0 10px;
-  font-size: 66px;
+  font-size: 50px;
   font-weight: bold 700;
 }
 
 .opening-text {
-  font-size: 40px;
+  font-size: 34px;
   font-weight: bold 700;
   line-height: 1.5;
 }
@@ -150,12 +150,6 @@ p{font-family: serif;
   height: auto;
 }
 
-.logoexp {
-  max-width: 50%;
-  display: inline-block; /* so max-width actually takes effect */
-  vertical-align: top;
-}
-
 .au::after {
   content: "";
   display: block;
@@ -164,8 +158,8 @@ p{font-family: serif;
 
 
 .card {
-  width: 80%;
-  min-height: 370px;          /* use min-height so it can expand if needed */
+  width: 95%;
+  min-height: 760px;          /* use min-height so it can expand if needed */
   border-radius: 10px;
   box-shadow: 10px 10px 5px #808080;
   background-color: white;
@@ -176,53 +170,45 @@ p{font-family: serif;
 }
 
 .cpic{
-    width: 500px;
-    height: 350px;
+    width: 93%;
+    height: auto;
 }
 
 .cpic1 {
-    width: 520px;
-    height: 370px;
-  float: right;
+    width: 95%;
+    height: auto;
   background-color: rgb(240, 149, 91);
-  display: flex;             /* centers image nicely */
   justify-content: center;
   align-items: center;
   padding: 10px;             /* this adds space inside the colored box */
   box-sizing: border-box;    /* ensures padding doesn’t expand box size */
 }
 .cpic2{
-    width: 520px;
-    height: 370px;
-    float: right;
+    width: 95%;
+    height: auto;
     background-color: rgb(237, 114, 105);
-    display: flex;             /* centers image nicely */
-  justify-content: center;
-  align-items: center;
-  padding: 10px;             /* this adds space inside the colored box */
-  box-sizing: border-box;    /* ensures padding doesn’t expand box size */
+    justify-content: center;
+    align-items: center;
+    padding: 10px;             /* this adds space inside the colored box */
+    box-sizing: border-box;
 }
 .cpic3{
-    width: 520px;
-    height: 370px;
-    float: right;
+    width: 95%;
+    height: auto;
     background-color: rgb(155, 179, 249);
-    display: flex;             /* centers image nicely */
   justify-content: center;
   align-items: center;
   padding: 10px;             /* this adds space inside the colored box */
-  box-sizing: border-box;    /* ensures padding doesn’t expand box size */
+  box-sizing: border-box;   /* ensures padding doesn’t expand box size */
 }
 .cpic4{
-    width: 520px;
-    height: 370px;
-    float: right;
+    width: 95%;
+    height: auto;
     background-color: rgb(249, 222, 134);
-    display: flex;             /* centers image nicely */
-  justify-content: center;
+    justify-content: center;
   align-items: center;
   padding: 10px;             /* this adds space inside the colored box */
-  box-sizing: border-box;    /* ensures padding doesn’t expand box size */
+  box-sizing: border-box;
 }
 
 .f {
@@ -243,21 +229,9 @@ p{font-family: serif;
 
 .rg{margin-bottom: 20px;
 }
-.rg-text{
-    max-width: 45%;
-    overflow: auto;
-}
-
-.rg-textp{
-        margin-left: 40px;
-}
 
 .rep-container {
-  float: right;
   text-align: center;
-  margin: 20px;
-  margin-right: 200px;
-  display: inline-block; /* this ensures padding visually wraps around contents */
 }
 
 
