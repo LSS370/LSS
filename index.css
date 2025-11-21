@@ -153,9 +153,11 @@ p{font-family: serif;
 .opening-image {
   height: 500px;
   width: auto;
+  border-radius: 15px;
   margin-right: 10px;
   object-fit: cover;
   display: block;
+    
 }
 
 .au {
