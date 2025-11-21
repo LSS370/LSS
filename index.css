@@ -17,24 +17,13 @@ nav {
 }
 
 .vlogo {
-  display: flex;
-  justify-content: flex-start; /* logo stays left */
   margin-bottom: 5px;
   padding-left: 10px; /* small space from left edge (optional) */
 }
 
-.row2 {
-  display: flex;
-  justify-content: space-between; /* ul on left, buttons on right */
-  align-items: center;
-  width: 100%;
-  padding: 0 10px;
-  box-sizing: border-box;
-}
-
 /* --- Navigation list --- */
 ul {
-  display: flex;
+  display: ;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -53,7 +42,6 @@ li:last-child {
 
 /* --- Language buttons --- */
 .lang-buttons {
-  display: flex;
   align-items: center;
 font-size:22px;
 }
@@ -67,7 +55,6 @@ font-size:22px;
   border: none; 
   border-radius: 5px;
   cursor: pointer;
-  margin-left: 8px;
 }
 
 
@@ -106,12 +93,9 @@ h2{ font-size: 26px;
 p{font-family: serif;
     text-align: left;
     font-size: 22px;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-right: 10px;
+    padding: 10px;
     padding-bottom: 20px;
     margin: 0px;
-    margin-left: 10px;
 }
 
 .opening {
@@ -120,7 +104,7 @@ p{font-family: serif;
   color: black;
   padding: 20px 20px 20px; /* leave space for the title overlap */
   text-align: left;
-  height: 500px;
+  height: auto;
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
@@ -137,13 +121,7 @@ p{font-family: serif;
   font-size: 66px;
   font-weight: bold 700;
 }
-.opening-content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
 
-/* Left text area */
 .opening-text {
   font-size: 40px;
   font-weight: bold 700;
@@ -151,10 +129,10 @@ p{font-family: serif;
 }
 /* Right image */
 .opening-image {
-  height: 500px;
+  height: auto;
   width: auto;
   border-radius: 15px;
-  margin-right: 10px;
+  margin: 10px;
   object-fit: cover;
   display: block;
     
@@ -167,10 +145,9 @@ p{font-family: serif;
 .au-text{ margin-left: 40px;
 }
 .logo {
-  float: right;
-  max-width: 40%;
+  margin: 10px;
+  width: auto;
   height: auto;
-  margin-left: 10px; /* space between image and text */
 }
 
 .logoexp {
