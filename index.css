@@ -186,66 +186,53 @@ p{font-family: serif;
 }
 
 
+/* Card container */
 .card {
   width: 80%;
-  min-height: 370px;          /* use min-height so it can expand if needed */
+  min-height: 370px;
   border-radius: 10px;
   box-shadow: 10px 10px 5px #808080;
   background-color: white;
-  display: block;              /* inline-block causes side-by-side squeezing */
-  margin: 20px auto;           /* centers and spaces between cards */
-  overflow: hidden;            /* keeps floated items inside */
-  position: relative;          /* helps control child layout */
+
+  display: flex;                    /* ← makes image + text stay side-by-side */
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 20px auto;
+  overflow: hidden;
+  padding: 20px;                    /* space inside card */
+  box-sizing: border-box;
 }
 
-.cpic{
-    width: 500px;
-    height: 350px;
+/* Text area inside the card */
+.card-text {
+  width: 50%;                       /* half of the area */
+  padding-right: 20px;
+  box-sizing: border-box;
 }
 
-.cpic1 {
-    width: 520px;
-    height: 370px;
-  float: right;
-  background-color: rgb(240, 149, 91);
-  display: flex;             /* centers image nicely */
+/* Generic image wrapper class */
+.cpic {
+  width: 50%;                       /* the other half */
+  height: 370px;
+  display: flex;                    /* center image */
   justify-content: center;
   align-items: center;
-  padding: 10px;             /* this adds space inside the colored box */
-  box-sizing: border-box;    /* ensures padding doesn’t expand box size */
+  padding: 10px;
+  box-sizing: border-box;
 }
-.cpic2{
-    width: 520px;
-    height: 370px;
-    float: right;
-    background-color: rgb(237, 114, 105);
-    display: flex;             /* centers image nicely */
-  justify-content: center;
-  align-items: center;
-  padding: 10px;             /* this adds space inside the colored box */
-  box-sizing: border-box;    /* ensures padding doesn’t expand box size */
-}
-.cpic3{
-    width: 520px;
-    height: 370px;
-    float: right;
-    background-color: rgb(155, 179, 249);
-    display: flex;             /* centers image nicely */
-  justify-content: center;
-  align-items: center;
-  padding: 10px;             /* this adds space inside the colored box */
-  box-sizing: border-box;    /* ensures padding doesn’t expand box size */
-}
-.cpic4{
-    width: 520px;
-    height: 370px;
-    float: right;
-    background-color: rgb(249, 222, 134);
-    display: flex;             /* centers image nicely */
-  justify-content: center;
-  align-items: center;
-  padding: 10px;             /* this adds space inside the colored box */
-  box-sizing: border-box;    /* ensures padding doesn’t expand box size */
+
+/* Different colors for each card */
+.cpic1 { background-color: rgb(240, 149, 91); }
+.cpic2 { background-color: rgb(237, 114, 105); }
+.cpic3 { background-color: rgb(155, 179, 249); }
+.cpic4 { background-color: rgb(249, 222, 134); }
+
+/* Image inside CPIC box */
+.cpic img {
+  width: 95%;
+  height: auto;
+  display: block;
 }
 
 .f {
