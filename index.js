@@ -81,6 +81,7 @@ function setLanguage(lang) {
   document.getElementById('f3').innerHTML = texts[lang].f3;
   document.getElementById('f31').innerHTML = texts[lang].f31;
   document.getElementById('f4').innerHTML = texts[lang].f4;
+  document.getElementById('f41').innerHTML = texts[lang].f41;
   document.getElementById('rg1').innerHTML = texts[lang].rg1;
   document.getElementById('AU').innerHTML = texts[lang].AU;
   document.getElementById('FPil').innerHTML = texts[lang].FPil;
