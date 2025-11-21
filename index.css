@@ -196,11 +196,11 @@ p{font-family: serif;
   background-color: white;
   margin: 20px auto;
   padding: 20px;
-  
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+    padding: 0px;
 }
 
 /* Left text area */
@@ -215,11 +215,10 @@ p{font-family: serif;
 .card-image {
   width: 520px;
   height: 370px;
-  border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-    margin: 0px;
+  margin: 0px;
 }
 
 /* The images */
