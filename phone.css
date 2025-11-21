@@ -12,7 +12,6 @@ body{font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", "MS Minc
 nav {
   width: 100%;
   display: flex;
-  flex-direction: column; /* stack logo on top, row2 below */
   margin-bottom: 40px;
 }
 
@@ -27,7 +26,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-font-sice:22px;
+font-size:22px;
 }
 
 li {
@@ -65,7 +64,7 @@ li > a:visited{color:purple;
 }
 
 h1{ font-size:50px;
-    text-align: left;
+    text-align: center;
     font-weight: bold 700;
     padding-top: 10px;
     padding-left: 10px;
@@ -78,7 +77,7 @@ h1 > a {color: black;
 }
 
 h2{ font-size: 26px;
-    text-align: left;
+    text-align: center;
     padding-top: 0px;
     padding-bottom: 10px;
     padding-right: 10px;
@@ -142,8 +141,7 @@ p{font-family: serif;
   overflow: auto; /* contains floated .logo */
   margin-bottom: 20px;
 }
-.au-text{ margin-left: 40px;
-}
+
 .logo {
   margin: 10px;
   width: auto;
@@ -159,7 +157,7 @@ p{font-family: serif;
 
 .card {
   width: 95%;
-  min-height: 760px;          /* use min-height so it can expand if needed */
+  min-height: 500px;          /* use min-height so it can expand if needed */
   border-radius: 10px;
   box-shadow: 10px 10px 5px #808080;
   background-color: white;
