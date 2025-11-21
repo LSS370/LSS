@@ -173,7 +173,7 @@ p{font-family: serif;
 }
 
 .cpic1 {
-    width: 95%;
+    width: 100%;
     height: auto;
   background-color: rgb(240, 149, 91);
   justify-content: center;
@@ -182,7 +182,7 @@ p{font-family: serif;
   box-sizing: border-box;    /* ensures padding doesn’t expand box size */
 }
 .cpic2{
-    width: 95%;
+    width: 100%;
     height: auto;
     background-color: rgb(237, 114, 105);
     justify-content: center;
@@ -191,7 +191,7 @@ p{font-family: serif;
     box-sizing: border-box;
 }
 .cpic3{
-    width: 95%;
+    width: 100%;
     height: auto;
     background-color: rgb(155, 179, 249);
   justify-content: center;
@@ -200,7 +200,7 @@ p{font-family: serif;
   box-sizing: border-box;   /* ensures padding doesn’t expand box size */
 }
 .cpic4{
-    width: 95%;
+    width: 100%;
     height: auto;
     background-color: rgb(249, 222, 134);
     justify-content: center;
