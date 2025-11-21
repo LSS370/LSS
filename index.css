@@ -187,53 +187,53 @@ p{font-family: serif;
 
 
 /* Card container */
+/* Entire card */
 .card {
   width: 80%;
   min-height: 370px;
   border-radius: 10px;
   box-shadow: 10px 10px 5px #808080;
   background-color: white;
-
-  display: flex;                    /* ← makes image + text stay side-by-side */
+  margin: 20px auto;
+  padding: 20px;
+  
+  display: flex;
   justify-content: space-between;
   align-items: center;
-
-  margin: 20px auto;
-  overflow: hidden;
-  padding: 20px;                    /* space inside card */
-  box-sizing: border-box;
+  gap: 20px;
 }
 
-/* Text area inside the card */
+/* Left text area */
 .card-text {
-  width: 50%;                       /* half of the area */
-  padding-right: 20px;
-  box-sizing: border-box;
+  flex: 1;
+  display: flex;
+  flex-direction: column; /* stack h2 + p vertically */
+  justify-content: center;
 }
 
-/* Generic image wrapper class */
-.cpic {
-  width: 50%;                       /* the other half */
+/* Right colored background area */
+.card-image {
+  width: 520px;
   height: 370px;
-  display: flex;                    /* center image */
+  border-radius: 10px;
+
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  box-sizing: border-box;
 }
 
-/* Different colors for each card */
+/* The images */
+.cpic {
+  width: 95%;      /* keeps all images same width */
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Each color background */
 .cpic1 { background-color: rgb(240, 149, 91); }
 .cpic2 { background-color: rgb(237, 114, 105); }
 .cpic3 { background-color: rgb(155, 179, 249); }
 .cpic4 { background-color: rgb(249, 222, 134); }
-
-/* Image inside CPIC box */
-.cpic img {
-  width: 95%;
-  height: auto;
-  display: block;
-}
 
 .f {
   margin-bottom: 60px;
@@ -256,22 +256,17 @@ p{font-family: serif;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 40px;
-  gap: 20px;
+  gap: 40px;
+  margin-bottom: 60px;
 }
 
 /* Left text area */
 .rg-text {
-  max-width: 55%;   /* text stays on the left */
-  line-height: 1.6;
+  flex: 1;
+  max-width: 55%;
 }
 
-/* If you need extra spacing for a specific paragraph */
-.rg-textp {
-  margin-left: 40px;
-}
-
-/* Right side: image + caption */
+/* Image + caption on the right */
 .rep-container {
   display: flex;
   flex-direction: column;
@@ -279,28 +274,20 @@ p{font-family: serif;
   background-color: rgb(217, 198, 255);
   padding: 20px;
   border-radius: 10px;
-
-  /* Width auto adjusts to image size */
 }
 
 /* The representative image */
 .representative {
   height: 360px;
   width: auto;
-  display: block;
   border-radius: 15px;
 }
 
-/* Caption below image */
+/* Caption */
 .rgsub {
-  margin-top: 8px;
+  margin-top: 10px;
+  font-weight: bold;
   text-align: center;
-  font-weight: 600;
-}
-
-/* No more floats — so this is NOT needed */
-.rg::after {
-  content: none;
 }
 
 
