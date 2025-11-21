@@ -57,7 +57,7 @@ const texts = {
     FPil: `4 Pillars`,
     RG: `Representative's Greetings`,
     CU: `Official SNS`,
-    rgsub: `Secretary- General<br> Kyosuke Kuriyama`,
+    rgsub: `Secretary-General<br> Kyosuke Kuriyama`,
   }
 };
 
