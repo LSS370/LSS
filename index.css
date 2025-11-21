@@ -263,15 +263,17 @@ p{font-family: serif;
 .rg-text {
   flex: 1;
   max-width: 55%;
+  order: 1;
 }
 
-/* Image + caption on the right */
 .rep-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
+  order: 2;  /* forces container to appear on the right */
 }
+
 
 /* The representative image */
 .representative {
