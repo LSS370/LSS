@@ -251,43 +251,56 @@ p{font-family: serif;
     
 }
 
-.rg{margin-bottom: 20px;
-}
-.rg-text{
-    max-width: 45%;
-    overflow: auto;
-}
-
-.rg-textp{
-        margin-left: 40px;
+/* Wrapper for the entire RG section */
+.rg {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 40px;
+  gap: 20px;
 }
 
+/* Left text area */
+.rg-text {
+  max-width: 55%;   /* text stays on the left */
+  line-height: 1.6;
+}
+
+/* If you need extra spacing for a specific paragraph */
+.rg-textp {
+  margin-left: 40px;
+}
+
+/* Right side: image + caption */
 .rep-container {
-  float: right;
-  text-align: center;
-  margin: 20px;
-  margin-right: 200px;
-  display: inline-block; /* this ensures padding visually wraps around contents */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(217, 198, 255);
+  padding: 20px;
+  border-radius: 10px;
+
+  /* Width auto adjusts to image size */
 }
 
-
+/* The representative image */
 .representative {
   height: 360px;
   width: auto;
-  display: block;         /* ensures caption starts below image */
-  margin: 0 auto;
+  display: block;
   border-radius: 15px;
 }
 
+/* Caption below image */
 .rgsub {
-  margin-top: 6px;
+  margin-top: 8px;
   text-align: center;
+  font-weight: 600;
 }
 
+/* No more floats — so this is NOT needed */
 .rg::after {
-  content: "";
-  display: block;
-  clear: both;
+  content: none;
 }
 
 
