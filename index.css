@@ -25,9 +25,8 @@ nav {
 
 .row2 {
   display: flex;
-  justify-content: space-between; /* ul on left, buttons on right */
-  align-items: center;
-  width: 100%;              /* spacing between rows */
+  justify-content: space-between;
+  align-items: center;           /* spacing between rows */
   padding: 0 10px;
   box-sizing: border-box;
 }
