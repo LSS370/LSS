@@ -25,11 +25,10 @@ nav {
 
 .row2 {
   display: flex;
-  flex-direction: column; /* stack links and language buttons */
-  align-items: flex-start; /* optional: align left */
-  gap: 10px;               /* spacing between rows */
+  justify-content: space-between; /* ul on left, buttons on right */
+  align-items: center;
+  width: 100%;              /* spacing between rows */
   padding: 0 10px;
-  width: 100%;
   box-sizing: border-box;
 }
 
