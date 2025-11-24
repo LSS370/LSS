@@ -27,17 +27,22 @@ nav {
 
 /* --- Navigation list --- */
 ul {
-  display: block;
-  list-style-type: none;
-  margin: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   padding: 0;
-font-size:22px;
+  margin: 0;
 }
 
 li {
-  font-size: 22px;
-  padding: 0 8px;
-  border-right: 2px solid black;
+  width: 100%;
+  border-right: none; /* vertical lists should not have right borders */
+  padding: 6px 0;
+}
+
+li a {
+  display: block;
+  width: 100%;
 }
 
 li:last-child {
