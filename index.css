@@ -250,40 +250,39 @@ p{font-family: serif;
     
 }
 
-/* Wrapper for the entire RG section */
 .rg {
   display: flex;
- flex-direction: row;
+  flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   gap: 40px;
   margin-bottom: 60px;
-    flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
-/* Left text area */
+/* Left text */
 .rg-text {
   flex: 1;
   max-width: 50%;
   order: 1;
 }
 
+/* Right Image/Caption container */
 .rep-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
   order: 2;
-  width: 360px;       /* <— ADD THIS */
+  width: auto;              /* <-- FIX HERE */
   box-sizing: border-box;
 }
 
-
-
-/* The representative image */
+/* Representative image */
 .representative {
-  height: 360px;
-  width: auto;
+  max-width: 360px;         /* <-- IMAGE NOW FITS PROPERLY */
+  width: 100%;
+  height: auto;
   border-radius: 15px;
 }
 
@@ -292,6 +291,7 @@ p{font-family: serif;
   margin-top: 10px;
   text-align: center;
 }
+
 
 
 .CU{margin-top:20px;
