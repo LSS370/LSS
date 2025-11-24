@@ -271,8 +271,11 @@ p{font-family: serif;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  order: 2;  /* forces container to appear on the right */
+  order: 2;
+  width: 360px;       /* <— ADD THIS */
+  box-sizing: border-box;
 }
+
 
 
 /* The representative image */
