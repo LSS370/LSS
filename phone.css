@@ -12,9 +12,12 @@ body{font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", "MS Minc
 nav {
   width: 100%;
   display: flex;
-  flex-direction: column;   /* ← THIS IS WHAT YOU NEED */
+  flex-direction: column;   /* ← REQUIRED */
+  align-items: flex-start;  /* optional, but cleaner */
+  gap: 10px;                /* optional */
   margin-bottom: 40px;
 }
+
 
 
 .vlogo {
@@ -24,7 +27,7 @@ nav {
 
 /* --- Navigation list --- */
 ul {
-  display: ;
+  display: block;
   list-style-type: none;
   margin: 0;
   padding: 0;
