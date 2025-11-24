@@ -274,6 +274,7 @@ p{font-family: serif;
   padding: 20px;
   order: 2;
   width: 360px;       /* <— ADD THIS */
+  margin-right: 360px;
   box-sizing: border-box;
 }
 
