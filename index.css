@@ -253,6 +253,7 @@ p{font-family: serif;
 /* Wrapper for the entire RG section */
 .rg {
   display: flex;
+ flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
   gap: 40px;
