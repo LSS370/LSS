@@ -12,46 +12,41 @@ body{font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", "MS Minc
 nav {
   display: flex;
   flex-direction: column;
-  align-items: center;  /* centers all children horizontally */
+  align-items: center;
   width: 100%;
 }
 
-
-
+/* logo container */
 .vlogo {
-  margin-bottom: 5px;
-  padding-left: 10px; /* small space from left edge (optional) */
+  display: flex;
+  justify-content: center;
+  width: 100%;
 }
 
-/* --- Navigation list --- */
-ul {
+/* menu + buttons container */
+.row2 {
   display: flex;
   flex-direction: column;
+  align-items: center;  /* aligns everything under the logo */
   width: 100%;
+}
+
+/* make UL centered */
+.row2 ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 0;
   margin: 0;
 }
 
-li {
-  width: 100%;
-  border-right: none; /* vertical lists should not have right borders */
-  padding: 6px 0;
-}
-
-li a {
-  display: block;
-  width: 100%;
-}
-
-li:last-child {
-  border-right: none;
-}
-
-/* --- Language buttons --- */
 .lang-buttons {
-  align-items: center;
-font-size:22px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
 }
+
 
 .lang-buttons button { 
   font-size: 22px;
