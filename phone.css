@@ -71,6 +71,26 @@ li > a:link{color:blue
 li > a:visited{color:purple;
 }
 
+nav ul {
+  list-style: none;      /* remove bullets */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* THIS actually centers your menu */
+  width: auto;           /* prevents full-width stretching */
+}
+
+nav li {
+  margin: 5px 0;         /* spacing between items */
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 22px;
+}
+
+
 h1{ font-size:50px;
     text-align: center;
     font-weight: bold 700;
