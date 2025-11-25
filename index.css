@@ -273,7 +273,7 @@ order: 1;
   padding: 20px;
   order: 2;
   width: 360px;       /* <— ADD THIS */
-  margin-right: 360px;
+  margin-right: 240px;
   box-sizing: border-box;
 }
 
