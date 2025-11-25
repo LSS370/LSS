@@ -272,7 +272,7 @@ order: 1;
   align-items: center;
   padding: 20px;
   order: 2;
-  width: 360px;       /* <— ADD THIS */
+  width: 240px;       /* <— ADD THIS */
   margin-right: 240px;
   box-sizing: border-box;
 }
