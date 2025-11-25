@@ -135,18 +135,21 @@ p{font-family: serif;
 }
 .opening-content {
   display: flex;
+  flex-direction: row; /* side-by-side */
   align-items: center;
   justify-content: space-between;
 }
 
 /* Left text area */
 .opening-text {
+order: 1;
   font-size: 40px;
   font-weight: bold 700;
   line-height: 1.5;
 }
 /* Right image */
 .opening-image {
+    order: 2;
   height: 500px;
   width: auto;
   border-radius: 15px;
