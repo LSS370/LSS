@@ -140,13 +140,7 @@ p{font-family: serif;
   justify-content: space-between;
 }
 
-/* Left text area */
-.opening-text {
-order: 1;
-  font-size: 40px;
-  font-weight: bold 700;
-  line-height: 1.5;
-}
+
 /* Right image */
 .opening-image {
     order: 2;
@@ -155,8 +149,14 @@ order: 1;
   border-radius: 15px;
   margin-right: 10px;
   object-fit: cover;
-  display: block;
-    
+  display: block;    
+}
+/* Left text area */
+.opening-text {
+order: 1;
+  font-size: 40px;
+  font-weight: bold 700;
+  line-height: 1.5;
 }
 
 .au {
