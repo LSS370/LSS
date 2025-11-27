@@ -8,7 +8,11 @@ body{font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", "MS Minc
     overflow-y: scroll;
 }
 
-
+.highlight{
+    color: rgb(8, 139, 2);
+    font-weight: bold;
+    
+}
 
 nav {
   width: 100%;
@@ -243,11 +247,7 @@ order: 1;
   clear: both;
 }
 
-.highlight{
-    color: rgb(8, 139, 2);
-    font-weight: bold;
-    
-}
+
 
 .rg {
   display: flex;
