@@ -271,8 +271,8 @@ order: 1;
   align-items: center;
   padding: 20px;
   order: 2;
-  width: 240px;       /* <— ADD THIS */
-  margin-right: 200px;
+  width: 360px;       /* <— ADD THIS */
+  margin-right: 120px;
   box-sizing: border-box;
 }
 
@@ -290,7 +290,10 @@ order: 1;
   margin-top: 10px;
   text-align: center;
 }
-
+.highlight{
+    color: rgb(86, 188, 108);
+    font-weight: bold;
+}
 
 .CU{margin-top:20px;
 }
