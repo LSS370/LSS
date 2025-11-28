@@ -5,7 +5,6 @@ body{font-family: "Noto Serif JP", "Hiragino Mincho ProN", "Yu Mincho", "MS Minc
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
-    overflow-y: scroll;
 }
 .highlight{
     color: rgb(8, 139, 2);
@@ -154,7 +153,7 @@ p{font-family: serif;
 }
 
 .opening-text {
-  font-size: 34px;
+  font-size: 30px;
   font-weight: bold 700;
   line-height: 1.5;
 }
