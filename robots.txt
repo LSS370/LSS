@@ -1,1 +1,3 @@
-\nUser-agent: *\nAllow: /\nSitemap: https://lss370.github.io/LSS/sitemap.xml\n
+User-agent: *
+Allow: /
+Sitemap: https://lss370.github.io/LSS/sitemap.xml
